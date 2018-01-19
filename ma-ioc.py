@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-from lib import iocDriver
+from libs import iocDriver
 
 from pcaspy import SimpleServer
 from pprint import pprint
