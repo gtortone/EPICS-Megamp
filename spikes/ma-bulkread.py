@@ -1,10 +1,14 @@
 #!/usr/bin/python3
 
+import sys
+sys.path.append('../libs')
+
 import megamp
 
-MA = megamp.Megamp("/dev/ttyUSB1", 115200, 0.5)
+MA = megamp.Megamp("/dev/ttyUSB0", 115200, 0.5)
 
-for m in range(1,6):
+for m in range(0,5):
+    print("MODULE = " + str(m))
     for i in range(0,17):
         try:
             values = MA.bulkread(module=m, channel=i)

@@ -1,8 +1,11 @@
 #!/usr/bin/python3
 
+import sys
+sys.path.append('../libs')
+
 import megamp
 
-MA = megamp.Megamp("/dev/ttyUSB1", 115200, 0.5)
+MA = megamp.Megamp("/dev/ttyUSB0", 115200, 0.5)
 
 MAlist = [ ]
 

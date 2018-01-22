@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
+import sys
+sys.path.append('../libs')
+
 import megamp
 
 MA = megamp.Megamp("/dev/ttyUSB3", 115200, 0.5)
