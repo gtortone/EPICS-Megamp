@@ -132,3 +132,7 @@ def addChannelPVs(db, module, channel):
   }
   db.update(mdict)
 
+def dumpYAML(db, MAlist):
+  for m in MAlist:
+    for c in range(0,16):
+      key = 'M' + str(m) + ':C' + str(c) + ':'
