@@ -1,6 +1,8 @@
 
+import sys
 import math
 import ctypes 
+import yaml
 
 from libs import PVMegamp
 from libs import megamp
@@ -37,7 +39,12 @@ class myDriver(Driver):
     self.fileindex = 1  # first five filenames in setup directory
     self.filelist = []
 
-    self.MA = megamp.Megamp("/dev/ttyUSB2", 115200, 0.5)
+    try:
+      self.MA = megamp.Megamp("/dev/ttyUSB0", 115200, 0.5)
+    except Exception as e:
+      print("ERROR: initialization of serial bus failed")
+      sys.exit(1)
+
     self.allocatePVs()
     self.updateFilelist()
 
@@ -203,6 +210,11 @@ class myDriver(Driver):
 
     if self.pvdb[reason]['name'] == 'FILE:LOAD':
       print("Loading file: " + str(pvalue))
+      return(True)
+
+    if self.pvdb[reason]['name'] == 'FILE:SAVE':
+      print("Saving file: " + str(pvalue))
+      PVMegamp.dumpYAML(self.pvdb, self.MAlist)
       return(True)
 
     self.setParam(reason, pvalue)       # default action
