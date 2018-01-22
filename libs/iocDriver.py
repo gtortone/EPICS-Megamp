@@ -46,6 +46,13 @@ class myDriver(Driver):
       sys.exit(1)
 
     self.allocatePVs()
+
+    if(not self.MAlist):
+      print("ERROR: no Megamp module available - maybe serial is not available ?")
+      sys.exit(1)
+    else:
+      print("INFO: Megamp modules discovered: " + str(self.MAlist))
+
     self.updateFilelist()
 
   def discoveryModules(self):
