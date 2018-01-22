@@ -31,7 +31,7 @@ class Flags( ctypes.Union ):
                ]
 
 class myDriver(Driver):
-  def __init__(self):
+  def __init__(self, port, speed):
     self.pvdb = {}
     self.pvinit = []    # contains PVs initialized - only first time (bus read and PV write)
     self.MAlist = []
@@ -40,7 +40,7 @@ class myDriver(Driver):
     self.filelist = []
 
     try:
-      self.MA = megamp.Megamp("/dev/ttyUSB0", 115200, 0.5)
+      self.MA = megamp.Megamp(port, speed, 0.5)
     except Exception as e:
       print("ERROR: initialization of serial bus failed")
       sys.exit(1)
@@ -132,7 +132,6 @@ class myDriver(Driver):
   def updateFilelist(self):
     self.filelist = [f for f in listdir("setup") if isfile(join("setup", f))]
     self.filelist.sort()
-    print(self.filelist)
 
   def updateFilePVs(self):
     for i in range(0,5):
