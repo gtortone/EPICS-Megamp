@@ -52,7 +52,7 @@ class Megamp():
 
     def read(self, module, channel, address):
 
-        cmd = '*' + str(module) + 'C' + str(channel) + 'A' + str(address) + '\r'
+        cmd = '*' + str(module).zfill(2) + 'C' + str(channel).zfill(2) + 'A' + str(address).zfill(2) + '\r'
 
         try:
             self.ser.write(cmd.encode('utf-8'))
@@ -64,7 +64,7 @@ class Megamp():
         except:
             raise MegampSerialReadError("Megamp serial port read error: " + line)
 
-        matchobj = re.match('\*OK,(\d*)', line)
+        matchobj = re.match('\*OK(\d*)', line)
 
         if (matchobj):
             return(matchobj.group(1))
@@ -75,7 +75,7 @@ class Megamp():
 
     def bulkread(self, module, channel):
 
-        cmd = '*' + str(module) + 'C' + str(channel) + 'R' + '\r'
+        cmd = '*' + str(module).zfill(2) + 'C' + str(channel).zfill(2) + 'R' + '\r'
 
         try:
             self.ser.write(cmd.encode('utf-8'))
@@ -88,9 +88,9 @@ class Megamp():
             raise MegampSerialReadError("Megamp serial port read error: " + line)
 
         if channel != 16:
-            matchobj = re.match('\*OK,(\d*),(\d*),(\d*),(\d*),(\d*)', line)
+            matchobj = re.match('\*OK(\d*),(\d*),(\d*),(\d*),(\d*)', line)
         else:
-            matchobj = re.match('\*OK,(\d*),(\d*)', line)
+            matchobj = re.match('\*OK(\d*),(\d*)', line)
 
         if (matchobj):
             if channel != 16:
@@ -104,7 +104,7 @@ class Megamp():
  
     def write(self, module, channel, address, value):
 
-        cmd = '*' + str(module) + 'C' + str(channel) + 'A' + str(address) + ',' + str(value) + '\r'
+        cmd = '*' + str(module).zfill(2) + 'C' + str(channel).zfill(2) + 'A' + str(address).zfill(2) + ',' + str(value) + '\r'
 
         try:
             self.ser.write(cmd.encode('utf-8'))
@@ -131,12 +131,12 @@ class Megamp():
             if(len(values) != 5):
                 raise MegampFunctionArgumentError("Megamp bulkwrite argument error: " + str(len(values)) + " arguments instead of 5")
             else:
-                cmd = '*' + str(module) + 'C' + str(channel) + 'W' + str(values[0]) + ',' + str(values[1]) + ',' + str(values[2]) + ',' + str(values[3]) + ',' + str(values[4]) + '\r'
+                cmd = '*' + str(module).zfill(2) + 'C' + str(channel).zfill(2) + 'W' + str(values[0]) + ',' + str(values[1]) + ',' + str(values[2]) + ',' + str(values[3]) + ',' + str(values[4]) + '\r'
         else:
             if(len(values) != 2):
                 raise MegampFunctionArgumentError("Megamp bulkwrite argument error: " + str(len(values)) + " arguments instead of 2")
             else:
-                cmd = '*' + str(module) + 'C' + str(channel) + 'W' + str(values[0]) + ',' + str(values[1]) + '\r'
+                cmd = '*' + str(module).zfill(2) + 'C' + str(channel).zfill(2) + 'W' + str(values[0]) + ',' + str(values[1]) + '\r'
 
         try:
             self.ser.write(cmd.encode('utf-8'))
