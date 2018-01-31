@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": false,
+                "path": [
+                    "/home/tortone/.arduino15/packages/arduino/hardware",
+                    "/home/tortone/fun/arduino-1.8.5/libraries",
+                    "/home/tortone/fun/arduino-1.8.5/hardware/arduino"
+                ]
+            },
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 3
+}
