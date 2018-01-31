@@ -1,4 +1,4 @@
-
+import io
 import sys
 import math
 import ctypes 
@@ -36,6 +36,11 @@ class myDriver(Driver):
     self.pvinit = []    # contains PVs initialized - only first time (bus read and PV write)
     self.MAlist = []
     self.MAlistname = []
+    self.mod_attrlist = ['NAME', 'MultiplicityThreshold', 'TACRange'] 
+    self.mod_attrhelp = [ 'module name', 'range: 0...4095', 'range: 0...4095']
+    self.ch_attrlist = [ 'InputPolarity', 'ShapingTime', 'CoarseGain', 'CoarseGainTime', 'CFD', 'OR', 'FineGain', 'PoleZero', 'CFDWidth', 'CFDThreshold' ]
+    self.ch_attrhelp = [ '0=negative, 1=positive', '0=3us, 1=0.5us, 2=3us Fast, 3=0.5us Fast', '0=1x, 1=4x, 2=16x, 3=64x', '0=4x, 1=1x', '0=enable, 1=disable', 
+            '0=enable, 1=disable', 'range: 1.0...4.0, unit: X', 'range: 50...2000, unit: us', 'range: 200...600, unit: ns', 'range: 0....4095, unit: mV' ]
     self.fileindex = 1  # first five filenames in setup directory
     self.filelist = []
 
@@ -137,7 +142,7 @@ class myDriver(Driver):
       self.pvinit.append(pvname)
 
   def updateFilelist(self):
-    self.filelist = [f for f in listdir("setup") if isfile(join("setup", f))]
+    self.filelist = [f for f in listdir("setup") if isfile(join("setup", f)) and (not f.startswith('.'))]
     self.filelist.sort()
 
   def updateFilePVs(self):
@@ -216,13 +221,49 @@ class myDriver(Driver):
 
     if self.pvdb[reason]['name'] == 'FILE:LOAD':
       print("Loading file: " + str(pvalue))
+      self.cleanResults()
       return(True)
 
     if self.pvdb[reason]['name'] == 'FILE:SAVE':
       print("Saving file: " + str(pvalue))
-      PVMegamp.dumpYAML(self.pvdb, self.MAlist)
+      self.cleanResults()
+      contents = self.dumpYAML()
+      f = open("setup/" + str(pvalue), 'w')
+      f.write(str(contents))
+      f.close()
       return(True)
 
     self.setParam(reason, pvalue)       # default action
     return(True)
+
+  def cleanResults(self):
+    self.write("FILE:RESULT:0", "")
+    self.write("FILE:RESULT:1", "")
+    self.write("FILE:RESULT:2", "")
+    self.write("FILE:RESULT:3", "")
+
+  def dumpYAML(self):
+    output = io.StringIO()
+    for m in self.MAlist:
+      output.write('M' + str(m) + ':\n')
+      # module attributes
+      for m_a in range(0,len(self.mod_attrlist)):
+        attr = self.mod_attrlist[m_a]
+        helpmsg = self.mod_attrhelp[m_a]
+        key = 'M' + str(m) + ':' + str(attr)
+        output.write('  ' + str(attr) + ': ' + str(self.read(key)) + ' # ' + str(helpmsg) + '\n')
+        #print(str(key) + ' - ' + str(self.read(key)))
+      for c in range(0,16):
+        output.write('  C' + str(c) + ':\n')
+        # channel attributes
+        for c_a in range(0,len(self.ch_attrlist)):
+          attr = self.ch_attrlist[c_a]
+          helpmsg = self.ch_attrhelp[c_a]
+          key = 'M' + str(m) + ':C' + str(c) + ':' + str(attr)
+          output.write('    ' + str(attr) + ': ' + str(self.read(key)) + ' # ' + str(helpmsg) + '\n')
+          #print(str(key) + ' - ' + str(self.read(key)))
+      output.write('\n')
+
+    #print(output.getvalue())
+    return(output.getvalue())
 
