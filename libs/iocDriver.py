@@ -60,7 +60,7 @@ class myDriver(Driver):
 
     self.updateFilelist()
 
-  def discoveryModules(self):
+  def detectModules(self):
     for i in range(0,16):
       try:
         value = self.MA.read(module=i, channel=0, address=0)
@@ -72,11 +72,13 @@ class myDriver(Driver):
     self.MAlistname = [str('M' + str(m)) for m in self.MAlist]
 
   def allocatePVs(self):
-    self.discoveryModules()
+    self.detectModules()
 
     PVMegamp.addStaticPVs(db=self.pvdb,MAlist=self.MAlist)
 
     for i in self.MAlist:
+      self.pvdb["M" + str(i)]["value"] = 1  # set module online
+      self.pvdb["M" + str(i) + ":STATUS"]["value"] = "Local EEPROM"
       PVMegamp.addModulePVs(db=self.pvdb, module=i)
       for j in range(0,16):
         PVMegamp.addChannelPVs(db=self.pvdb, module=i, channel=j)
@@ -220,17 +222,24 @@ class myDriver(Driver):
         return(True)
 
     if self.pvdb[reason]['name'] == 'FILE:LOAD':
-      print("Loading file: " + str(pvalue))
+      filename = self.getParam("FILE:" + str(pvalue))
+      print("INFO: Loading file: " + str(filename))
       self.cleanResults()
       return(True)
 
     if self.pvdb[reason]['name'] == 'FILE:SAVE':
-      print("Saving file: " + str(pvalue))
-      self.cleanResults()
-      contents = self.dumpYAML()
-      f = open("setup/" + str(pvalue), 'w')
-      f.write(str(contents))
-      f.close()
+      filename =  self.getParam("FILE:" + str(pvalue))
+      if filename:
+        print("INFO: Saving file: " + str(filename))
+        self.cleanResults()
+        contents = self.dumpYAML()
+        f = open("setup/" + str(filename), 'w')
+        f.write(str(contents))
+        f.close()
+        self.setParam("FILE:SAVE", 0)
+        self.setParam("FILE:5", "")
+        self.updateFilelist()
+        self.updateFilePVs()
       return(True)
 
     self.setParam(reason, pvalue)       # default action
