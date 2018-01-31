@@ -223,8 +223,37 @@ class myDriver(Driver):
 
     if self.pvdb[reason]['name'] == 'FILE:LOAD':
       filename = self.getParam("FILE:" + str(pvalue))
-      print("INFO: Loading file: " + str(filename))
-      self.cleanResults()
+      if filename:
+        print("INFO: Loading file: " + str(filename))
+        self.cleanResults()
+        self.setParam("FILE:RESULT:0", "Setup filename: " + str(filename))
+        errstr = "Errors: "
+        try:
+          f = open("setup/" + str(filename), 'r')
+        except Exception as e:
+          errstr = errstr + str(e)
+          self.setParam("FILE:RESULT:STATUS", 1)  # error
+        else:
+          try:
+            doc = yaml.safe_load(f)
+          except Exception as e:
+            errstr = errstr + str(e)
+          else:
+            f.close()
+            if(type(doc) is dict):    # file is a valid YAML document
+              MAset_loaded = set(doc.keys())
+              MAset_available = set(self.MAlistname)
+              MAset_tosetup = list(MAset_loaded.intersection(MAset_available))
+              MAset_tosetup.sort()
+              print("Modules loaded from file" + str(MAset_loaded))
+              print("Modules available" + str(MAset_available))
+              print("Modules to setup" + str(MAset_tosetup))
+            else:
+              errstr = errstr + "file format error"
+              self.setParam("FILE:RESULT:STATUS", 1)  # error
+            
+        self.setParam("FILE:RESULT:2", errstr)
+        self.setParam("FILE:LOAD", 0)
       return(True)
 
     if self.pvdb[reason]['name'] == 'FILE:SAVE':
@@ -232,10 +261,20 @@ class myDriver(Driver):
       if filename:
         print("INFO: Saving file: " + str(filename))
         self.cleanResults()
+        self.setParam("FILE:RESULT:0", "Setup filename: " + str(filename))
+        self.setParam("FILE:RESULT:1", "MEGAMP modules saved: " + str(self.MAlistname))
+        errstr = "Errors: "
         contents = self.dumpYAML()
-        f = open("setup/" + str(filename), 'w')
-        f.write(str(contents))
-        f.close()
+        try:
+          f = open("setup/" + str(filename), 'w')
+        except Exception as e:
+          errstr = errstr + str(e)
+          self.setParam("FILE:RESULT:STATUS", 1)  # error
+        else:
+          errstr = errstr + "none"
+          f.write(str(contents))
+          f.close()
+        self.setParam("FILE:RESULT:2", errstr)
         self.setParam("FILE:SAVE", 0)
         self.setParam("FILE:5", "")
         self.updateFilelist()
@@ -246,10 +285,11 @@ class myDriver(Driver):
     return(True)
 
   def cleanResults(self):
-    self.write("FILE:RESULT:0", "")
-    self.write("FILE:RESULT:1", "")
-    self.write("FILE:RESULT:2", "")
-    self.write("FILE:RESULT:3", "")
+    self.setParam("FILE:RESULT:0", "")
+    self.setParam("FILE:RESULT:1", "")
+    self.setParam("FILE:RESULT:2", "")
+    self.setParam("FILE:RESULT:3", "")
+    self.setParam("FILE:RESULT:STATUS", 0)  # success
 
   def dumpYAML(self):
     output = io.StringIO()
