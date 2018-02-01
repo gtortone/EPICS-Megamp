@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+import os
+
 from libs import iocDriver
 from optparse import OptionParser
 
@@ -19,9 +21,15 @@ parser.add_option("-s", action="store", type="string", dest="speed", help="set M
 
 if(options.port):
   port = options.port
+else:
+  if(os.environ.get("MA_PORT")):
+    port = os.environ.get("MA_PORT")
 
 if(options.speed):
   speed = options.speed
+else:
+  if(os.environ.get("MA_SPEED")):
+    speed = os.environ.get("MA_SPEED")
 
 print("Megamp serial parameter: port = " + port + " speed = " + str(speed))
 
