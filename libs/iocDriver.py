@@ -3,6 +3,7 @@ import sys
 import math
 import ctypes 
 import yaml
+import threading
 
 from libs import PVMegamp
 from libs import megamp
@@ -43,6 +44,7 @@ class myDriver(Driver):
             '0=enable, 1=disable', 'range: 1.0...4.0, unit: X', 'range: 50...2000, unit: us', 'range: 200...600, unit: ns', 'range: 0....4095, unit: mV' ]
     self.fileindex = 1  # first five filenames in setup directory
     self.filelist = []
+    self.tid = None
 
     try:
       self.MA = megamp.Megamp(port, speed, 0.5)
@@ -56,7 +58,7 @@ class myDriver(Driver):
       print("ERROR: no Megamp module available - maybe serial is not available ?")
       sys.exit(1)
     else:
-      print("INFO: Megamp modules discovered: " + str(self.MAlist))
+      print("INFO: Megamp modules detected: " + str(self.MAlist))
 
     self.updateFilelist()
 
@@ -175,6 +177,7 @@ class myDriver(Driver):
     # check PV range
     if 'min' in self.pvdb[reason]:
       if pvalue < self.pvdb[reason]['min'] or pvalue > self.pvdb[reason]['max']:
+        #raise ValueError("value out of range")
         return(True)
 
     if 'MAaddr' in self.pvdb[reason]:
@@ -223,58 +226,98 @@ class myDriver(Driver):
 
     if self.pvdb[reason]['name'] == 'FILE:LOAD':
       filename = self.getParam("FILE:" + str(pvalue))
-      if filename:
-        print("INFO: Loading file: " + str(filename))
-        self.cleanResults()
-        self.setParam("FILE:RESULT:0", "Setup filename: " + str(filename))
-        errstr = "Errors: "
-        try:
-          f = open("setup/" + str(filename), 'r')
-        except Exception as e:
-          errstr = errstr + str(e)
-          self.setParam("FILE:RESULT:STATUS", 1)  # error
-        else:
-          try:
-            doc = yaml.safe_load(f)
-          except Exception as e:
-            errstr = errstr + str(e)
-          else:
-            f.close()
-            if(type(doc) is dict):    # file is a valid YAML document
-              MAset_loaded = set(doc.keys())
-              MAset_available = set(self.MAlistname)
-              MAset_tosetup = list(MAset_loaded.intersection(MAset_available))
-              MAset_tosetup.sort()
-              print("Modules loaded from file" + str(MAset_loaded))
-              print("Modules available" + str(MAset_available))
-              print("Modules to setup" + str(MAset_tosetup))
-            else:
-              errstr = errstr + "file format error"
-              self.setParam("FILE:RESULT:STATUS", 1)  # error
-            
+      
+      if not filename:
+        return(True)
+      
+      self.cleanResults()
+      self.setParam("FILE:RESULT:0", "Setup filename: " + str(filename))
+      self.updatePVs()
+
+      print("INFO: Loading file: " + str(filename))
+      errstr = "Errors: "
+
+      try:
+        f = open("setup/" + str(filename), 'r')
+      except Exception as e:
+        errstr = errstr + str(e)
+        self.setParam("FILE:RESULT:STATUS", 1)  # error
         self.setParam("FILE:RESULT:2", errstr)
-        self.setParam("FILE:LOAD", 0)
+        return(True)
+
+      try:
+        doc = yaml.safe_load(f)
+      except Exception as e:
+        errstr = errstr + str(e)
+        self.setParam("FILE:RESULT:2", errstr)
+        f.close()
+        return(True)
+
+      f.close()
+      if(not(type(doc) is dict)):
+        errstr = errstr + "file format error"
+        self.setParam("FILE:RESULT:STATUS", 1)  # error
+        self.setParam("FILE:RESULT:2", errstr)
+        self.updatePVs()
+        return(True)
+      
+      MAset_infile = set(doc.keys())
+      MAset_incrate = set(self.MAlistname)
+      MAset_tosetup = sorted(MAset_infile.intersection(MAset_incrate))
+      MAset_infile = sorted(MAset_infile)   # convert a set to a sorted list
+      MAset_incrate = sorted(MAset_incrate)
+      print("INFO: Modules loaded from file: " + str(MAset_infile))
+      print("INFO: Modules available in the crate: " + str(MAset_incrate))
+      print("INFO: Modules to setup: " + str(MAset_tosetup))
+
+      if(len(MAset_tosetup) == 0):
+        print("INFO: no modules to setup")
+        errstr = errstr + "Setup warning - Setup not restored from file"
+        msg = "FILE contains(" + str(MAset_infile) + ") "
+        msg = msg + " while CRATE contains(" + str(MAset_incrate) + ")"
+        self.setParam("FILE:RESULT:STATUS", 2)  # warning
+        self.setParam("FILE:RESULT:0", "Setup filename: " + str(filename))
+        self.setParam("FILE:RESULT:1", msg)
+        self.setParam("FILE:RESULT:2", errstr)
+        self.updatePVs()
+        return(True)
+      
+      print("INFO: Start loading from file " + filename + "...")
+      self.setParam("FILE:RESULT:STATUS", 3)  # in progress...
+      self.tid = threading.Thread(target=self.restoreModules,args=(MAset_incrate,doc,filename,))
+      self.tid.start()
+
+      self.updatePVs()
       return(True)
 
     if self.pvdb[reason]['name'] == 'FILE:SAVE':
+      errstr = ""
       filename =  self.getParam("FILE:" + str(pvalue))
       if filename:
-        print("INFO: Saving file: " + str(filename))
+        print("INFO: Start saving to file: " + str(filename))
         self.cleanResults()
-        self.setParam("FILE:RESULT:0", "Setup filename: " + str(filename))
-        self.setParam("FILE:RESULT:1", "MEGAMP modules saved: " + str(self.MAlistname))
-        errstr = "Errors: "
+        self.updatePVs()
+        self.setParam("FILE:RESULT:STATUS", 3)  # in progress...
+        self.updatePVs()
         contents = self.dumpYAML()
         try:
           f = open("setup/" + str(filename), 'w')
         except Exception as e:
           errstr = errstr + str(e)
-          self.setParam("FILE:RESULT:STATUS", 1)  # error
         else:
-          errstr = errstr + "none"
           f.write(str(contents))
           f.close()
-        self.setParam("FILE:RESULT:2", errstr)
+
+        self.setParam("FILE:RESULT:0", "Setup filename: " + str(filename))
+        self.setParam("FILE:RESULT:1", "MEGAMP modules saved: " + str(self.MAlistname))
+        if(errstr):
+          self.setParam("FILE:RESULT:STATUS", 1)  # error
+          self.setParam("FILE:RESULT:2", "Errors: some errors occour")
+          self.setParam("FILE:RESULT:1", errstr)
+        else:
+          self.setParam("FILE:RESULT:STATUS", 0)  # success
+          self.setParam("FILE:RESULT:2", "Errors: none")
+        
         self.setParam("FILE:SAVE", 0)
         self.setParam("FILE:5", "")
         self.updateFilelist()
@@ -282,14 +325,20 @@ class myDriver(Driver):
       return(True)
 
     self.setParam(reason, pvalue)       # default action
+    self.updatePVs()
     return(True)
 
   def cleanResults(self):
     self.setParam("FILE:RESULT:0", "")
+    self.setParamStatus("FILE:RESULT:0", Alarm.NO_ALARM, Severity.NO_ALARM)
     self.setParam("FILE:RESULT:1", "")
+    self.setParamStatus("FILE:RESULT:1", Alarm.NO_ALARM, Severity.NO_ALARM)
     self.setParam("FILE:RESULT:2", "")
+    self.setParamStatus("FILE:RESULT:2", Alarm.NO_ALARM, Severity.NO_ALARM)
     self.setParam("FILE:RESULT:3", "")
+    self.setParamStatus("FILE:RESULT:3", Alarm.NO_ALARM, Severity.NO_ALARM)
     self.setParam("FILE:RESULT:STATUS", 0)  # success
+    self.updatePVs()
 
   def dumpYAML(self):
     output = io.StringIO()
@@ -300,7 +349,10 @@ class myDriver(Driver):
         attr = self.mod_attrlist[m_a]
         helpmsg = self.mod_attrhelp[m_a]
         key = 'M' + str(m) + ':' + str(attr)
-        output.write('  ' + str(attr) + ': ' + str(self.read(key)) + ' # ' + str(helpmsg) + '\n')
+        value = self.read(key)
+        if(attr == "NAME" and len(str(value)) == 0):
+          value = str('""')
+        output.write('  ' + str(attr) + ': ' + str(value) + ' # ' + str(helpmsg) + '\n')
         #print(str(key) + ' - ' + str(self.read(key)))
       for c in range(0,16):
         output.write('  C' + str(c) + ':\n')
@@ -309,10 +361,69 @@ class myDriver(Driver):
           attr = self.ch_attrlist[c_a]
           helpmsg = self.ch_attrhelp[c_a]
           key = 'M' + str(m) + ':C' + str(c) + ':' + str(attr)
-          output.write('    ' + str(attr) + ': ' + str(self.read(key)) + ' # ' + str(helpmsg) + '\n')
+          value = self.read(key)
+          output.write('    ' + str(attr) + ': ' + str(value) + ' # ' + str(helpmsg) + '\n')
           #print(str(key) + ' - ' + str(self.read(key)))
       output.write('\n')
 
     #print(output.getvalue())
     return(output.getvalue())
+
+  def restoreModules(self, mset, doc, filename):    # restore modules 'mset' from yaml data 'doc' get from 'filename'
+    errstr = ""
+    for m in mset:
+      if m in doc.keys():
+        # module attributes
+        for m_a in range(0,len(self.mod_attrlist)):
+          attr = self.mod_attrlist[m_a]
+          if attr in doc[m].keys():
+            key = str(m) + ':' + str(attr)
+            value = doc[m][attr]
+            #if(attr == 'NAME' and len(str(value)) == 0):
+            #  value = ""
+            try:
+              self.write(key, value)
+            except Exception as e:
+              errstr += "Attribute " + str(m) + ":" + str(attr) + " - " + str(e) + "\n"
+          else:
+            errstr += ("Attribute " + str(m) + ":" + str(attr) + " - missing in setup file\n")
+        for c in range(0,16):
+          c = 'C' + str(c)
+          if c in doc[m].keys():
+            # channel attributes
+            for c_a in range(0,len(self.ch_attrlist)):
+              attr = self.ch_attrlist[c_a]
+              if attr in doc[m][c].keys():
+                key = str(m) + ':' + str(c) + ':' + str(attr)
+                value = doc[m][c][attr]
+                if value < self.pvdb[key]['min'] or value > self.pvdb[key]['max']:
+                  errstr += "Attribute " + str(m) + ":" + str(c) + ":" + str(attr) + " - " + " out of range\n"
+                else:
+                  self.write(key, value)
+              else:
+                errstr += ("Attribute " + str(m) + ":" + str(c) + ":" + str(attr) + " - missing in setup file\n")
+          else:
+            errstr += ("Channel " + str(m) + ":" + str(c) + " - missing in setup file\n")
+        self.setParam(str(m + ":STATUS"), str("From file " + filename))
+      else:
+        errstr += ("Module " + str(m) + " - missing in setup file\n")
+    
+    print("INFO: File load finished")
+    print(errstr)
+    
+    if(errstr):
+      self.setParam("FILE:RESULT:STATUS", 2)  # warning
+      self.setParam("FILE:RESULT:2", "Errors: some errors occour")
+      self.setParam("FILE:RESULT:1", errstr)
+    else:
+      self.setParam("FILE:RESULT:STATUS", 0)  # success
+      self.setParam("FILE:RESULT:2", "Errors: none")
+
+    self.callbackPV('FILE:LOAD')
+    self.updatePVs()
+    self.tid = None 
+
+
+      
+        
 

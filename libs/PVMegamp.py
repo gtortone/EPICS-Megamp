@@ -53,7 +53,7 @@ def addStaticPVs(db, MAlist):
   mdict['FILE:RESULT:1'] = { 'type': 'char', 'count': 256, 'name': 'FILE:RESULT:1' }
   mdict['FILE:RESULT:2'] = { 'type': 'char', 'count': 256, 'name': 'FILE:RESULT:2' }
   mdict['FILE:RESULT:3'] = { 'type': 'char', 'count': 256, 'name': 'FILE:RESULT:3' }
-  mdict['FILE:RESULT:STATUS'] = { 'type': 'enum', 'enums': [ "SUCCESS", "ERROR", "WARNING" ], 'value': 0, 'name': 'FILE:RESULT:STATUS' }
+  mdict['FILE:RESULT:STATUS'] = { 'type': 'enum', 'enums': [ "SUCCESS", "ERROR", "WARNING", "IN PROGRESS" ], 'value': 0, 'name': 'FILE:RESULT:STATUS' }
   mdict['M0'] = { 'type': 'enum', 'enums': [ "OFFLINE", "ONLINE" ], 'value': 0, 'name': 'M0' }
   mdict['M1'] = { 'type': 'enum', 'enums': [ "OFFLINE", "ONLINE" ], 'value': 0, 'name': 'M1' }
   mdict['M2'] = { 'type': 'enum', 'enums': [ "OFFLINE", "ONLINE" ], 'value': 0, 'name': 'M2' }
