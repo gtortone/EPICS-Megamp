@@ -323,6 +323,33 @@ class myDriver(Driver):
         self.updateFilePVs()
       return(True)
 
+    if self.pvdb[reason]['name'] == 'COPY':
+      print("INFO: Start channel copy...")
+      self.setParam("COPY:RESULT:STATUS", 3)  # in progress
+      self.setParam("COPY:RESULT", "")
+      self.updatePVs()
+      msrc = self.getParam("COPY:MOD:SRC")
+      mdest = self.getParam("COPY:MOD:DEST")
+      csrc = self.getParam("COPY:CH:SRC")
+      cdest = self.getParam("COPY:CH:DEST")
+      mask = 1
+      err = 0
+      for i in range(0,16):
+        if(cdest & mask):
+          err += self.copyChannel(msrc, csrc, mdest, i)
+        mask = mask << 1
+      if(err > 0):
+        self.setParam("COPY:RESULT:STATUS", 1)  # error
+        self.setParam("COPY:RESULT", "Copy ERROR")
+      else:
+        self.setParam("COPY:RESULT:STATUS", 0)  # success
+        self.setParam("COPY:RESULT", "Copy OK")
+      
+      print("INFO: Copy completed")
+      self.setParam("COPY:CH:DEST", 0)
+      self.updatePVs()
+      return(True)
+
     self.setParam(reason, pvalue)       # default action
     self.updatePVs()
     return(True)
@@ -368,7 +395,8 @@ class myDriver(Driver):
     #print(output.getvalue())
     return(output.getvalue())
 
-  def restoreModules(self, mset, doc, filename):    # restore modules 'mset' from yaml data 'doc' get from 'filename'
+  # restore modules 'mset' from yaml data 'doc' get from 'filename'
+  def restoreModules(self, mset, doc, filename):
     errstr = ""
     for m in mset:
       if m in doc.keys():
@@ -378,8 +406,6 @@ class myDriver(Driver):
           if attr in doc[m].keys():
             key = str(m) + ':' + str(attr)
             value = doc[m][attr]
-            #if(attr == 'NAME' and len(str(value)) == 0):
-            #  value = ""
             try:
               self.write(key, value)
             except Exception as e:
@@ -421,6 +447,23 @@ class myDriver(Driver):
     self.callbackPV('FILE:LOAD')
     self.updatePVs()
     self.tid = None 
+
+  # copy channel attributes from msrc:csrc to mdest:cdest
+  def copyChannel(self, msrc, csrc, mdest, cdest):
+    err = 0
+    srcprefix = str('M' + str(msrc) + ':' + 'C' + str(csrc) + ':')
+    destprefix = str('M' + str(mdest) + ':' + 'C' + str(cdest) + ':')
+    for c_a in range(0,len(self.ch_attrlist)):
+      pvsrc = srcprefix + str(self.ch_attrlist[c_a])
+      pvdest = destprefix + str(self.ch_attrlist[c_a])
+      if(pvsrc != pvdest):  # skip source channel
+        try:
+          self.write(pvdest, self.getParam(pvsrc))
+        except Exception as e:
+          print(e)
+          err = 1
+    self.updatePVs()
+    return(err)
 
 
       

@@ -38,8 +38,8 @@
     <line_width>0</line_width>
     <horizontal_fill>true</horizontal_fill>
     <alarm_pulsing>false</alarm_pulsing>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+    <tooltip></tooltip>
+
     <rules />
     <enabled>true</enabled>
     <wuid>59fc562:15379159bbc:211d</wuid>
@@ -98,8 +98,8 @@ $(pv_value)</tooltip>
     <line_width>0</line_width>
     <horizontal_fill>true</horizontal_fill>
     <alarm_pulsing>false</alarm_pulsing>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+    <tooltip></tooltip>
+
     <rules />
     <enabled>true</enabled>
     <wuid>59fc562:15379159bbc:2125</wuid>
@@ -331,8 +331,8 @@ $(pv_value)</tooltip>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <alarm_pulsing>false</alarm_pulsing>
     <precision>0</precision>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+    <tooltip></tooltip>
+
     <horizontal_alignment>1</horizontal_alignment>
     <rules />
     <enabled>true</enabled>
@@ -425,8 +425,8 @@ $(pv_value)</tooltip>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <alarm_pulsing>false</alarm_pulsing>
     <precision>0</precision>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+    <tooltip></tooltip>
+
     <horizontal_alignment>1</horizontal_alignment>
     <rules />
     <enabled>true</enabled>
@@ -478,8 +478,8 @@ $(pv_value)</tooltip>
     <border_style>1</border_style>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <alarm_pulsing>false</alarm_pulsing>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+    <tooltip></tooltip>
+
     <rules />
     <enabled>true</enabled>
     <wuid>59fc562:15379159bbc:3b2b</wuid>
@@ -703,8 +703,8 @@ $(pv_value)</tooltip>
         <line_width>0</line_width>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10cc</wuid>
@@ -763,8 +763,8 @@ $(pv_value)</tooltip>
         <line_width>0</line_width>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10cd</wuid>
@@ -900,8 +900,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -994,8 +994,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -1088,8 +1088,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -1182,8 +1182,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -1478,8 +1478,8 @@ amp. gain</text>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -1539,8 +1539,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -1599,8 +1599,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10e0</wuid>
@@ -1645,8 +1645,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10e1</wuid>
@@ -1691,8 +1691,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10e2</wuid>
@@ -1737,8 +1737,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10e3</wuid>
@@ -1785,8 +1785,8 @@ $(pv_value)</tooltip>
         <line_width>0</line_width>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10e4</wuid>
@@ -1882,8 +1882,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -1936,8 +1936,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -1990,8 +1990,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -2044,8 +2044,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -2098,8 +2098,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -2167,8 +2167,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -2228,8 +2228,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -2288,8 +2288,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10ed</wuid>
@@ -2334,8 +2334,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10ee</wuid>
@@ -2380,8 +2380,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10ef</wuid>
@@ -2426,8 +2426,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10f0</wuid>
@@ -2474,8 +2474,8 @@ $(pv_value)</tooltip>
         <line_width>0</line_width>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10f1</wuid>
@@ -2571,8 +2571,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -2625,8 +2625,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -2679,8 +2679,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -2733,8 +2733,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -2787,8 +2787,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -2856,8 +2856,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -2917,8 +2917,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -2977,8 +2977,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10fa</wuid>
@@ -3023,8 +3023,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10fb</wuid>
@@ -3069,8 +3069,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10fc</wuid>
@@ -3115,8 +3115,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10fd</wuid>
@@ -3163,8 +3163,8 @@ $(pv_value)</tooltip>
         <line_width>0</line_width>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10fe</wuid>
@@ -3260,8 +3260,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -3314,8 +3314,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -3368,8 +3368,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -3422,8 +3422,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -3476,8 +3476,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -3545,8 +3545,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -3606,8 +3606,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -3666,8 +3666,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1107</wuid>
@@ -3712,8 +3712,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1108</wuid>
@@ -3758,8 +3758,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1109</wuid>
@@ -3804,8 +3804,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:110a</wuid>
@@ -3852,8 +3852,8 @@ $(pv_value)</tooltip>
         <line_width>0</line_width>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:110b</wuid>
@@ -3949,8 +3949,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -4003,8 +4003,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -4057,8 +4057,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -4111,8 +4111,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -4165,8 +4165,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -4234,8 +4234,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -4295,8 +4295,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -4355,8 +4355,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1114</wuid>
@@ -4401,8 +4401,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1115</wuid>
@@ -4447,8 +4447,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1116</wuid>
@@ -4493,8 +4493,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1117</wuid>
@@ -4541,8 +4541,8 @@ $(pv_value)</tooltip>
         <line_width>0</line_width>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1118</wuid>
@@ -4638,8 +4638,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -4692,8 +4692,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -4746,8 +4746,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -4800,8 +4800,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -4854,8 +4854,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -4923,8 +4923,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -4984,8 +4984,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -5044,8 +5044,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1121</wuid>
@@ -5090,8 +5090,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1122</wuid>
@@ -5136,8 +5136,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1123</wuid>
@@ -5182,8 +5182,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1124</wuid>
@@ -5230,8 +5230,8 @@ $(pv_value)</tooltip>
         <line_width>0</line_width>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1125</wuid>
@@ -5327,8 +5327,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -5381,8 +5381,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -5435,8 +5435,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -5489,8 +5489,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -5543,8 +5543,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -5612,8 +5612,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -5673,8 +5673,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -5733,8 +5733,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:112e</wuid>
@@ -5779,8 +5779,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:112f</wuid>
@@ -5825,8 +5825,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1130</wuid>
@@ -5871,8 +5871,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1131</wuid>
@@ -5919,8 +5919,8 @@ $(pv_value)</tooltip>
         <line_width>0</line_width>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1132</wuid>
@@ -6016,8 +6016,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -6070,8 +6070,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -6124,8 +6124,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -6178,8 +6178,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -6232,8 +6232,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -6301,8 +6301,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -6362,8 +6362,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -6422,8 +6422,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:113b</wuid>
@@ -6468,8 +6468,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:113c</wuid>
@@ -6514,8 +6514,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:113d</wuid>
@@ -6560,8 +6560,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:113e</wuid>
@@ -6607,8 +6607,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -6718,8 +6718,8 @@ $(pv_value)</tooltip>
         <line_width>0</line_width>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:46f3</wuid>
@@ -6778,8 +6778,8 @@ $(pv_value)</tooltip>
         <line_width>0</line_width>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:46f4</wuid>
@@ -6915,8 +6915,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -7009,8 +7009,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -7103,8 +7103,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -7197,8 +7197,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -7453,8 +7453,8 @@ amp. gain</text>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -7562,8 +7562,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -7623,8 +7623,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -7683,8 +7683,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4707</wuid>
@@ -7729,8 +7729,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4708</wuid>
@@ -7775,8 +7775,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4709</wuid>
@@ -7821,8 +7821,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:470a</wuid>
@@ -7869,8 +7869,8 @@ $(pv_value)</tooltip>
         <line_width>0</line_width>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:470b</wuid>
@@ -7966,8 +7966,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -8020,8 +8020,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -8074,8 +8074,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -8128,8 +8128,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -8182,8 +8182,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -8251,8 +8251,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -8312,8 +8312,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -8372,8 +8372,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4714</wuid>
@@ -8418,8 +8418,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4715</wuid>
@@ -8464,8 +8464,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4716</wuid>
@@ -8510,8 +8510,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4717</wuid>
@@ -8558,8 +8558,8 @@ $(pv_value)</tooltip>
         <line_width>0</line_width>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4718</wuid>
@@ -8655,8 +8655,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -8709,8 +8709,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -8763,8 +8763,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -8817,8 +8817,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -8871,8 +8871,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -8940,8 +8940,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -9001,8 +9001,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -9061,8 +9061,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4721</wuid>
@@ -9107,8 +9107,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4722</wuid>
@@ -9153,8 +9153,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4723</wuid>
@@ -9199,8 +9199,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4724</wuid>
@@ -9247,8 +9247,8 @@ $(pv_value)</tooltip>
         <line_width>0</line_width>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4725</wuid>
@@ -9344,8 +9344,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -9398,8 +9398,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -9452,8 +9452,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -9506,8 +9506,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -9560,8 +9560,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -9629,8 +9629,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -9690,8 +9690,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -9750,8 +9750,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:472e</wuid>
@@ -9796,8 +9796,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:472f</wuid>
@@ -9842,8 +9842,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4730</wuid>
@@ -9888,8 +9888,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4731</wuid>
@@ -9936,8 +9936,8 @@ $(pv_value)</tooltip>
         <line_width>0</line_width>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4732</wuid>
@@ -10033,8 +10033,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -10087,8 +10087,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -10141,8 +10141,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -10195,8 +10195,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -10249,8 +10249,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -10318,8 +10318,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -10379,8 +10379,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -10439,8 +10439,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:473b</wuid>
@@ -10485,8 +10485,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:473c</wuid>
@@ -10531,8 +10531,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:473d</wuid>
@@ -10577,8 +10577,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:473e</wuid>
@@ -10625,8 +10625,8 @@ $(pv_value)</tooltip>
         <line_width>0</line_width>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:473f</wuid>
@@ -10722,8 +10722,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -10776,8 +10776,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -10830,8 +10830,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -10884,8 +10884,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -10938,8 +10938,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -11007,8 +11007,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -11068,8 +11068,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -11128,8 +11128,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4748</wuid>
@@ -11174,8 +11174,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4749</wuid>
@@ -11220,8 +11220,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:474a</wuid>
@@ -11266,8 +11266,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:474b</wuid>
@@ -11314,8 +11314,8 @@ $(pv_value)</tooltip>
         <line_width>0</line_width>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:474c</wuid>
@@ -11411,8 +11411,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -11465,8 +11465,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -11519,8 +11519,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -11573,8 +11573,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -11627,8 +11627,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -11696,8 +11696,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -11757,8 +11757,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -11817,8 +11817,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4755</wuid>
@@ -11863,8 +11863,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4756</wuid>
@@ -11909,8 +11909,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4757</wuid>
@@ -11955,8 +11955,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4758</wuid>
@@ -12003,8 +12003,8 @@ $(pv_value)</tooltip>
         <line_width>0</line_width>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4759</wuid>
@@ -12100,8 +12100,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -12154,8 +12154,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -12208,8 +12208,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -12262,8 +12262,8 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -12316,8 +12316,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -12385,8 +12385,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -12446,8 +12446,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -12506,8 +12506,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4762</wuid>
@@ -12552,8 +12552,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4763</wuid>
@@ -12598,8 +12598,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4764</wuid>
@@ -12644,8 +12644,8 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+        <tooltip></tooltip>
+
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4765</wuid>

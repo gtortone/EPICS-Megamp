@@ -32,12 +32,13 @@ def addStaticPVs(db, MAlist):
   # static PVs
   MAlist.sort()
   mdict['MOD:SEL'] = {'type': 'enum', 'enums': list(map(str, MAlist)), 'value': 0, 'min': 0, 'max': len(MAlist)-1, 'name': 'MOD:SEL' }
-  mdict['COPY:MOD:SRC'] = { 'type': 'enum', 'enums': list(map(str, MAlist)), 'value': 0, 'min': 0, 'max': len(MAlist), 'name': 'COPY:MOD:SRC' }
-  mdict['COPY:MOD:DEST'] = { 'type': 'enum', 'enums': list(map(str, MAlist)), 'value': 0, 'min': 0, 'max': len(MAlist), 'name': 'COPY:MOD:DEST' }
-  mdict['COPY:CH:SRC'] = { 'type': 'int', 'value': 1, 'min': 1, 'max': 16, 'name': 'COPY:CH:SRC' }
-  mdict['COPY:CH:DEST'] = { 'type': 'int', 'value': 1, 'min': 1, 'max': 16, 'name': 'COPY:CH:DEST' }
-  mdict['COPY:ATTR'] = { 'type': 'int', 'value': 0, 'name': 'COPY:ATTR' }
-  mdict['COPY:START'] = { 'type': 'int', 'value': 0, 'name': 'COPY:START' }
+  mdict['COPY:MOD:SRC'] = { 'type': 'enum', 'enums': list(map(str, MAlist)), 'value': 0, 'min': 0, 'max': len(MAlist)-1, 'name': 'COPY:MOD:SRC' }
+  mdict['COPY:MOD:DEST'] = { 'type': 'enum', 'enums': list(map(str, MAlist)), 'value': 0, 'min': 0, 'max': len(MAlist)-1, 'name': 'COPY:MOD:DEST' }
+  mdict['COPY:CH:SRC'] = { 'type': 'int', 'value': 0, 'min': 0, 'max': 15, 'name': 'COPY:CH:SRC' }
+  mdict['COPY:CH:DEST'] = { 'type': 'int', 'value': 0, 'min': 0, 'max': 65535, 'name': 'COPY:CH:DEST' }
+  mdict['COPY'] = { 'type': 'int', 'value': 0, 'name': 'COPY' }
+  mdict['COPY:RESULT'] = { 'type': 'char', 'count': 256, 'name': 'COPY:RESULT' }
+  mdict['COPY:RESULT:STATUS'] = { 'type': 'enum', 'enums': [ "SUCCESS", "ERROR", "WARNING", "IN PROGRESS" ], 'value': 0, 'name': 'COPY:RESULT:STATUS' }
   mdict['FILE:0'] = { 'type': 'string', 'name': 'FILE:0' }
   mdict['FILE:1'] = { 'type': 'string', 'name': 'FILE:1' }
   mdict['FILE:2'] = { 'type': 'string', 'name': 'FILE:2' }
@@ -48,7 +49,6 @@ def addStaticPVs(db, MAlist):
   mdict['FILE:NEXTGROUP'] = { 'type': 'int', 'value': 0, 'name': 'FILE:NEXTGROUP' }
   mdict['FILE:LOAD'] = { 'type': 'int', 'value': 0, 'min': 0, 'max': 4, 'name': 'FILE:LOAD' }
   mdict['FILE:SAVE'] = { 'type': 'int', 'value': 0, 'min': 0, 'max': 5, 'name': 'FILE:SAVE' }
-  mdict['FILE:STATUS'] = { 'type': 'enum', 'enums': [ "IDLE", "RUNNING" ], 'name': 'FILE:STATUS' }
   mdict['FILE:RESULT:0'] = { 'type': 'char', 'count': 256, 'name': 'FILE:RESULT:0' }
   mdict['FILE:RESULT:1'] = { 'type': 'char', 'count': 256, 'name': 'FILE:RESULT:1' }
   mdict['FILE:RESULT:2'] = { 'type': 'char', 'count': 256, 'name': 'FILE:RESULT:2' }
