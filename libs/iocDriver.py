@@ -332,21 +332,11 @@ class myDriver(Driver):
       mdest = self.getParam("COPY:MOD:DEST")
       csrc = self.getParam("COPY:CH:SRC")
       cdest = self.getParam("COPY:CH:DEST")
-      mask = 1
-      err = 0
-      for i in range(0,16):
-        if(cdest & mask):
-          err += self.copyChannel(msrc, csrc, mdest, i)
-        mask = mask << 1
-      if(err > 0):
-        self.setParam("COPY:RESULT:STATUS", 1)  # error
-        self.setParam("COPY:RESULT", "Copy ERROR")
-      else:
-        self.setParam("COPY:RESULT:STATUS", 0)  # success
-        self.setParam("COPY:RESULT", "Copy OK")
-      
-      print("INFO: Copy completed")
-      self.setParam("COPY:CH:DEST", 0)
+
+      self.setParam("FILE:RESULT:STATUS", 3)  # in progress...
+      self.tid = threading.Thread(target=self.copyChannels,args=(msrc,csrc,mdest,cdest,))
+      self.tid.start()
+
       self.updatePVs()
       return(True)
 
@@ -448,6 +438,28 @@ class myDriver(Driver):
     self.updatePVs()
     self.tid = None 
 
+  # copy channels attributes from msrc:csrc to mdest:cbdest ('cbdest' is a channel bitmask)
+  def copyChannels(self, msrc, csrc, mdest, cbdest):
+    mask = 1
+    err = 0
+    for i in range(0,16):
+      if(cbdest & mask):
+        err += self.copyChannel(msrc, csrc, mdest, i)
+      mask = mask << 1
+    if(err > 0):
+      self.setParam("COPY:RESULT:STATUS", 1)  # error
+      self.setParam("COPY:RESULT", "Copy ERROR")
+    else:
+      self.setParam("COPY:RESULT:STATUS", 0)  # success
+      self.setParam("COPY:RESULT", "Copy OK")
+    
+    print("INFO: Copy completed")
+    self.setParam("COPY:CH:DEST", 0)
+
+    self.callbackPV('COPY')
+    self.updatePVs()
+    self.tid = None
+
   # copy channel attributes from msrc:csrc to mdest:cdest
   def copyChannel(self, msrc, csrc, mdest, cdest):
     err = 0
@@ -458,7 +470,7 @@ class myDriver(Driver):
       pvdest = destprefix + str(self.ch_attrlist[c_a])
       if(pvsrc != pvdest):  # skip source channel
         try:
-          self.write(pvdest, self.getParam(pvsrc))
+          self.write(pvdest, self.read(pvsrc))
         except Exception as e:
           print(e)
           err = 1
