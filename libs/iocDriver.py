@@ -44,6 +44,7 @@ class myDriver(Driver):
     self.fileindex = 1  # first five filenames in setup directory
     self.filelist = []
     self.tid = None
+    self.mutex = threading.Lock()
 
     try:
       self.MA = megamp.Megamp(port, speed, 0.5)
@@ -63,12 +64,15 @@ class myDriver(Driver):
 
   def detectModules(self):
     for i in range(0,16):
+      self.mutex.acquire()
       try:
         value = self.MA.read(module=i, channel=0, address=0)
       except Exception as e:
         e
       else:
         self.MAlist.append(i)
+      finally:
+        self.mutex.release()
 
     self.MAlistname = [str('M' + str(m)) for m in self.MAlist]
 
@@ -86,6 +90,7 @@ class myDriver(Driver):
 
   def initPV(self, pv):
     self.pvinit.append(pv)
+    self.mutex.acquire()
     try:
       lvalue = self.MA.read(module=self.pvdb[pv]['MAmod'], channel=self.pvdb[pv]['MAch'], address=self.pvdb[pv]['MAaddr'])
     except Exception as e:
@@ -103,8 +108,11 @@ class myDriver(Driver):
 
       self.setParamStatus(pv, Alarm.NO_ALARM, Severity.NO_ALARM)
       self.setParam(pv, pvalue)
+    finally:
+      self.mutex.release()
 
   def initPVflags(self, pv):
+    self.mutex.acquire()
     try:
       lvalue = self.MA.read(module=self.pvdb[pv]['MAmod'], channel=self.pvdb[pv]['MAch'], address=0) 
     except Exception as e:
@@ -143,6 +151,8 @@ class myDriver(Driver):
       self.setParamStatus(pvname, Alarm.NO_ALARM, Severity.NO_ALARM)
       self.setParam(pvname, flags.OR)
       self.pvinit.append(pvname)
+    finally:
+      self.mutex.release()
 
   def updateFilelist(self):
     self.filelist = [f for f in listdir("setup") if isfile(join("setup", f)) and (not f.startswith('.'))]
@@ -181,8 +191,10 @@ class myDriver(Driver):
 
     if 'MAaddr' in self.pvdb[reason]:
       if (self.pvdb[reason]['MAaddr'] == 0) and (self.pvdb[reason]['MAch'] != 16):
-        self.initPVflags(reason)              
+        self.initPVflags(reason)
+        self.mutex.acquire()
         curvalue = self.MA.read(module=self.pvdb[reason]['MAmod'], channel=self.pvdb[reason]['MAch'], address=0)
+        self.mutex.release()
         flags = Flags()
         flags.asByte = int(curvalue)
         setattr(flags,self.pvdb[reason]['name'],pvalue)
@@ -193,6 +205,7 @@ class myDriver(Driver):
       else:
         lvalue = pvalue
 
+      self.mutex.acquire()
       try:
         self.MA.write(module=self.pvdb[reason]['MAmod'], channel=self.pvdb[reason]['MAch'], address=self.pvdb[reason]['MAaddr'], value=lvalue)
       except Exception as e:
@@ -201,8 +214,11 @@ class myDriver(Driver):
       else:
         self.setParam(reason, pvalue)
         return(True)
+      finally:
+        self.mutex.release()
 
     if self.pvdb[reason]['name'] == "OUT":  # output enable
+      self.mutex.acquire()
       try:
         self.MA.read(module=self.pvdb[reason]['MAmod'], channel=self.pvdb[reason]['MAch'], address=1)
       except Exception as e:
@@ -210,6 +226,8 @@ class myDriver(Driver):
         return(False)
       else:
         return(True)
+      finally:
+        self.mutex.release()
 
     if self.pvdb[reason]['name'] == 'FILE:NEXTGROUP':
       if(len(self.filelist) >= self.fileindex + 5):
