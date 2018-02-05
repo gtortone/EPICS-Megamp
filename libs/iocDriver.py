@@ -64,16 +64,19 @@ class myDriver(Driver):
 
   def detectModules(self):
     for i in range(0,16):
-      self.mutex.acquire()
-      try:
-        value = self.MA.read(module=i, channel=0, address=0)
-      except Exception as e:
-        e
-      else:
-        self.MAlist.append(i)
-      finally:
-        self.mutex.release()
-
+      r = 0
+      value = None
+      while (r < 3) and (value == None):
+        self.mutex.acquire()
+        try:
+          value = self.MA.read(module=i, channel=0, address=0)
+        except Exception as e:
+          e
+        else:
+          self.MAlist.append(i)
+        finally:
+          self.mutex.release()
+        r = r + 1
     self.MAlistname = [str('M' + str(m)) for m in self.MAlist]
 
   def allocatePVs(self):
