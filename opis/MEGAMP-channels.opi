@@ -39,7 +39,6 @@
     <horizontal_fill>true</horizontal_fill>
     <alarm_pulsing>false</alarm_pulsing>
     <tooltip></tooltip>
-
     <rules />
     <enabled>true</enabled>
     <wuid>59fc562:15379159bbc:211d</wuid>
@@ -99,7 +98,6 @@
     <horizontal_fill>true</horizontal_fill>
     <alarm_pulsing>false</alarm_pulsing>
     <tooltip></tooltip>
-
     <rules />
     <enabled>true</enabled>
     <wuid>59fc562:15379159bbc:2125</wuid>
@@ -332,7 +330,6 @@
     <alarm_pulsing>false</alarm_pulsing>
     <precision>0</precision>
     <tooltip></tooltip>
-
     <horizontal_alignment>1</horizontal_alignment>
     <rules />
     <enabled>true</enabled>
@@ -426,7 +423,6 @@
     <alarm_pulsing>false</alarm_pulsing>
     <precision>0</precision>
     <tooltip></tooltip>
-
     <horizontal_alignment>1</horizontal_alignment>
     <rules />
     <enabled>true</enabled>
@@ -479,7 +475,6 @@
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <alarm_pulsing>false</alarm_pulsing>
     <tooltip></tooltip>
-
     <rules />
     <enabled>true</enabled>
     <wuid>59fc562:15379159bbc:3b2b</wuid>
@@ -568,7 +563,7 @@
     <text>MEGAMP Settings - Control</text>
     <scripts />
     <height>20</height>
-    <border_width>1</border_width>
+    <border_width>0</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
       <height_scalable>true</height_scalable>
@@ -599,7 +594,7 @@
   <widget typeId="org.csstudio.opibuilder.widgets.tab" version="1.0.0">
     <active_tab>0</active_tab>
     <tooltip></tooltip>
-    <height>475</height>
+    <height>490</height>
     <border_width>1</border_width>
     <border_color>
       <color red="0" green="128" blue="255" />
@@ -666,7 +661,7 @@
       <transparent>true</transparent>
       <lock_children>false</lock_children>
       <scripts />
-      <height>449</height>
+      <height>464</height>
       <border_width>1</border_width>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -704,7 +699,6 @@
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10cc</wuid>
@@ -764,7 +758,6 @@
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10cd</wuid>
@@ -802,7 +795,7 @@
         <width>939</width>
         <x>4</x>
         <name>Rectangle</name>
-        <y>88</y>
+        <y>102</y>
         <fill_level>0.0</fill_level>
         <foreground_color>
           <color red="255" green="0" blue="0" />
@@ -886,7 +879,7 @@
         <width>49</width>
         <x>10</x>
         <name>Label_2</name>
-        <y>104</y>
+        <y>118</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -901,7 +894,6 @@
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -938,7 +930,7 @@
         <width>61</width>
         <x>58</x>
         <name>Spinner_1</name>
-        <y>104</y>
+        <y>118</y>
         <maximum>4.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -995,7 +987,6 @@
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -1032,7 +1023,7 @@
         <width>61</width>
         <x>136</x>
         <name>Spinner_17</name>
-        <y>103</y>
+        <y>117</y>
         <maximum>2000.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -1089,7 +1080,6 @@
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -1126,7 +1116,7 @@
         <width>61</width>
         <x>217</x>
         <name>Spinner_33</name>
-        <y>104</y>
+        <y>118</y>
         <maximum>600.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -1183,7 +1173,6 @@
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -1220,7 +1209,7 @@
         <width>61</width>
         <x>296</x>
         <name>Spinner_49</name>
-        <y>103</y>
+        <y>117</y>
         <maximum>4095.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -1479,7 +1468,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -1523,7 +1511,7 @@ amp. gain</text>
         <x>811</x>
         <name>Boolean Button</name>
         <data_type>0</data_type>
-        <y>93</y>
+        <y>107</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -1540,7 +1528,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -1584,7 +1571,7 @@ amp. gain</text>
         <x>853</x>
         <name>Boolean Button_1</name>
         <data_type>0</data_type>
-        <y>93</y>
+        <y>107</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -1600,7 +1587,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10e0</wuid>
@@ -1632,7 +1618,7 @@ amp. gain</text>
         <width>201</width>
         <x>438</x>
         <name>Combo_5</name>
-        <y>97</y>
+        <y>111</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -1646,7 +1632,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10e1</wuid>
@@ -1678,7 +1663,7 @@ amp. gain</text>
         <width>99</width>
         <x>646</x>
         <name>Combo_1</name>
-        <y>97</y>
+        <y>111</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -1692,7 +1677,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10e2</wuid>
@@ -1724,7 +1708,7 @@ amp. gain</text>
         <width>55</width>
         <x>751</x>
         <name>Combo_2</name>
-        <y>97</y>
+        <y>111</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -1738,7 +1722,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10e3</wuid>
@@ -1770,7 +1753,7 @@ amp. gain</text>
         <width>65</width>
         <x>368</x>
         <name>Combo_8</name>
-        <y>97</y>
+        <y>111</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -1786,7 +1769,6 @@ amp. gain</text>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10e4</wuid>
@@ -1824,7 +1806,7 @@ amp. gain</text>
         <width>939</width>
         <x>4</x>
         <name>Rectangle_18</name>
-        <y>37</y>
+        <y>51</y>
         <fill_level>0.0</fill_level>
         <foreground_color>
           <color red="255" green="0" blue="0" />
@@ -1868,7 +1850,7 @@ amp. gain</text>
         <width>49</width>
         <x>10</x>
         <name>Label_37</name>
-        <y>53</y>
+        <y>67</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -1883,7 +1865,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -1920,7 +1901,7 @@ amp. gain</text>
         <width>61</width>
         <x>58</x>
         <name>Spinner_66</name>
-        <y>53</y>
+        <y>67</y>
         <maximum>4.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -1937,7 +1918,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -1974,7 +1954,7 @@ amp. gain</text>
         <width>61</width>
         <x>136</x>
         <name>Spinner_67</name>
-        <y>52</y>
+        <y>66</y>
         <maximum>2000.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -1991,7 +1971,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -2028,7 +2007,7 @@ amp. gain</text>
         <width>61</width>
         <x>217</x>
         <name>Spinner_68</name>
-        <y>53</y>
+        <y>67</y>
         <maximum>600.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -2045,7 +2024,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -2082,7 +2060,7 @@ amp. gain</text>
         <width>61</width>
         <x>296</x>
         <name>Spinner_69</name>
-        <y>52</y>
+        <y>66</y>
         <maximum>4095.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -2099,7 +2077,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -2143,7 +2120,7 @@ amp. gain</text>
         <x>900</x>
         <name>Boolean Button_3</name>
         <data_type>0</data_type>
-        <y>42</y>
+        <y>56</y>
         <foreground_color>
           <color red="237" green="212" blue="0" />
         </foreground_color>
@@ -2168,7 +2145,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -2212,7 +2188,7 @@ amp. gain</text>
         <x>811</x>
         <name>Boolean Button_4</name>
         <data_type>0</data_type>
-        <y>42</y>
+        <y>56</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -2229,7 +2205,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -2273,7 +2248,7 @@ amp. gain</text>
         <x>853</x>
         <name>Boolean Button_5</name>
         <data_type>0</data_type>
-        <y>42</y>
+        <y>56</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -2289,7 +2264,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10ed</wuid>
@@ -2321,7 +2295,7 @@ amp. gain</text>
         <width>201</width>
         <x>438</x>
         <name>Combo_9</name>
-        <y>47</y>
+        <y>61</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -2335,7 +2309,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10ee</wuid>
@@ -2367,7 +2340,7 @@ amp. gain</text>
         <width>99</width>
         <x>646</x>
         <name>Combo_10</name>
-        <y>47</y>
+        <y>61</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -2381,7 +2354,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10ef</wuid>
@@ -2413,7 +2385,7 @@ amp. gain</text>
         <width>55</width>
         <x>751</x>
         <name>Combo_11</name>
-        <y>47</y>
+        <y>61</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -2427,7 +2399,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10f0</wuid>
@@ -2459,7 +2430,7 @@ amp. gain</text>
         <width>65</width>
         <x>368</x>
         <name>Combo_12</name>
-        <y>47</y>
+        <y>61</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -2475,7 +2446,6 @@ amp. gain</text>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10f1</wuid>
@@ -2513,7 +2483,7 @@ amp. gain</text>
         <width>939</width>
         <x>4</x>
         <name>Rectangle_19</name>
-        <y>190</y>
+        <y>204</y>
         <fill_level>0.0</fill_level>
         <foreground_color>
           <color red="255" green="0" blue="0" />
@@ -2557,7 +2527,7 @@ amp. gain</text>
         <width>49</width>
         <x>10</x>
         <name>Label_38</name>
-        <y>206</y>
+        <y>220</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -2572,7 +2542,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -2609,7 +2578,7 @@ amp. gain</text>
         <width>61</width>
         <x>58</x>
         <name>Spinner_70</name>
-        <y>206</y>
+        <y>220</y>
         <maximum>4.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -2626,7 +2595,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -2663,7 +2631,7 @@ amp. gain</text>
         <width>61</width>
         <x>136</x>
         <name>Spinner_71</name>
-        <y>205</y>
+        <y>219</y>
         <maximum>2000.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -2680,7 +2648,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -2717,7 +2684,7 @@ amp. gain</text>
         <width>61</width>
         <x>217</x>
         <name>Spinner_72</name>
-        <y>206</y>
+        <y>220</y>
         <maximum>600.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -2734,7 +2701,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -2771,7 +2737,7 @@ amp. gain</text>
         <width>61</width>
         <x>296</x>
         <name>Spinner_73</name>
-        <y>205</y>
+        <y>219</y>
         <maximum>4095.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -2788,7 +2754,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -2832,7 +2797,7 @@ amp. gain</text>
         <x>900</x>
         <name>Boolean Button_6</name>
         <data_type>0</data_type>
-        <y>195</y>
+        <y>209</y>
         <foreground_color>
           <color red="237" green="212" blue="0" />
         </foreground_color>
@@ -2857,7 +2822,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -2901,7 +2865,7 @@ amp. gain</text>
         <x>811</x>
         <name>Boolean Button_7</name>
         <data_type>0</data_type>
-        <y>195</y>
+        <y>209</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -2918,7 +2882,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -2962,7 +2925,7 @@ amp. gain</text>
         <x>853</x>
         <name>Boolean Button_8</name>
         <data_type>0</data_type>
-        <y>195</y>
+        <y>209</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -2978,7 +2941,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10fa</wuid>
@@ -3010,7 +2972,7 @@ amp. gain</text>
         <width>201</width>
         <x>438</x>
         <name>Combo_13</name>
-        <y>199</y>
+        <y>213</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -3024,7 +2986,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10fb</wuid>
@@ -3056,7 +3017,7 @@ amp. gain</text>
         <width>99</width>
         <x>646</x>
         <name>Combo_14</name>
-        <y>199</y>
+        <y>213</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -3070,7 +3031,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10fc</wuid>
@@ -3102,7 +3062,7 @@ amp. gain</text>
         <width>55</width>
         <x>751</x>
         <name>Combo_15</name>
-        <y>199</y>
+        <y>213</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -3116,7 +3076,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10fd</wuid>
@@ -3148,7 +3107,7 @@ amp. gain</text>
         <width>65</width>
         <x>368</x>
         <name>Combo_16</name>
-        <y>199</y>
+        <y>213</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -3164,7 +3123,6 @@ amp. gain</text>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:10fe</wuid>
@@ -3202,7 +3160,7 @@ amp. gain</text>
         <width>939</width>
         <x>4</x>
         <name>Rectangle_20</name>
-        <y>139</y>
+        <y>153</y>
         <fill_level>0.0</fill_level>
         <foreground_color>
           <color red="255" green="0" blue="0" />
@@ -3246,7 +3204,7 @@ amp. gain</text>
         <width>49</width>
         <x>10</x>
         <name>Label_39</name>
-        <y>155</y>
+        <y>169</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -3261,7 +3219,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -3298,7 +3255,7 @@ amp. gain</text>
         <width>61</width>
         <x>58</x>
         <name>Spinner_74</name>
-        <y>155</y>
+        <y>169</y>
         <maximum>4.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -3315,7 +3272,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -3352,7 +3308,7 @@ amp. gain</text>
         <width>61</width>
         <x>136</x>
         <name>Spinner_75</name>
-        <y>154</y>
+        <y>168</y>
         <maximum>2000.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -3369,7 +3325,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -3406,7 +3361,7 @@ amp. gain</text>
         <width>61</width>
         <x>217</x>
         <name>Spinner_76</name>
-        <y>155</y>
+        <y>169</y>
         <maximum>600.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -3423,7 +3378,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -3460,7 +3414,7 @@ amp. gain</text>
         <width>61</width>
         <x>296</x>
         <name>Spinner_77</name>
-        <y>154</y>
+        <y>168</y>
         <maximum>4095.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -3477,7 +3431,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -3521,7 +3474,7 @@ amp. gain</text>
         <x>900</x>
         <name>Boolean Button_9</name>
         <data_type>0</data_type>
-        <y>144</y>
+        <y>158</y>
         <foreground_color>
           <color red="237" green="212" blue="0" />
         </foreground_color>
@@ -3546,7 +3499,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -3590,7 +3542,7 @@ amp. gain</text>
         <x>811</x>
         <name>Boolean Button_10</name>
         <data_type>0</data_type>
-        <y>144</y>
+        <y>158</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -3607,7 +3559,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -3651,7 +3602,7 @@ amp. gain</text>
         <x>853</x>
         <name>Boolean Button_11</name>
         <data_type>0</data_type>
-        <y>144</y>
+        <y>158</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -3667,7 +3618,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1107</wuid>
@@ -3699,7 +3649,7 @@ amp. gain</text>
         <width>201</width>
         <x>438</x>
         <name>Combo_17</name>
-        <y>148</y>
+        <y>162</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -3713,7 +3663,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1108</wuid>
@@ -3745,7 +3694,7 @@ amp. gain</text>
         <width>99</width>
         <x>646</x>
         <name>Combo_18</name>
-        <y>148</y>
+        <y>162</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -3759,7 +3708,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1109</wuid>
@@ -3791,7 +3739,7 @@ amp. gain</text>
         <width>55</width>
         <x>751</x>
         <name>Combo_19</name>
-        <y>148</y>
+        <y>162</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -3805,7 +3753,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:110a</wuid>
@@ -3837,7 +3784,7 @@ amp. gain</text>
         <width>65</width>
         <x>368</x>
         <name>Combo_20</name>
-        <y>148</y>
+        <y>162</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -3853,7 +3800,6 @@ amp. gain</text>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:110b</wuid>
@@ -3891,7 +3837,7 @@ amp. gain</text>
         <width>939</width>
         <x>4</x>
         <name>Rectangle_21</name>
-        <y>292</y>
+        <y>306</y>
         <fill_level>0.0</fill_level>
         <foreground_color>
           <color red="255" green="0" blue="0" />
@@ -3935,7 +3881,7 @@ amp. gain</text>
         <width>49</width>
         <x>10</x>
         <name>Label_40</name>
-        <y>308</y>
+        <y>322</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -3950,7 +3896,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -3987,7 +3932,7 @@ amp. gain</text>
         <width>61</width>
         <x>58</x>
         <name>Spinner_78</name>
-        <y>308</y>
+        <y>322</y>
         <maximum>4.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -4004,7 +3949,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -4041,7 +3985,7 @@ amp. gain</text>
         <width>61</width>
         <x>136</x>
         <name>Spinner_79</name>
-        <y>307</y>
+        <y>321</y>
         <maximum>2000.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -4058,7 +4002,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -4095,7 +4038,7 @@ amp. gain</text>
         <width>61</width>
         <x>217</x>
         <name>Spinner_80</name>
-        <y>308</y>
+        <y>322</y>
         <maximum>600.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -4112,7 +4055,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -4149,7 +4091,7 @@ amp. gain</text>
         <width>61</width>
         <x>296</x>
         <name>Spinner_81</name>
-        <y>307</y>
+        <y>321</y>
         <maximum>4095.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -4166,7 +4108,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -4210,7 +4151,7 @@ amp. gain</text>
         <x>900</x>
         <name>Boolean Button_12</name>
         <data_type>0</data_type>
-        <y>297</y>
+        <y>311</y>
         <foreground_color>
           <color red="237" green="212" blue="0" />
         </foreground_color>
@@ -4235,7 +4176,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -4279,7 +4219,7 @@ amp. gain</text>
         <x>811</x>
         <name>Boolean Button_13</name>
         <data_type>0</data_type>
-        <y>297</y>
+        <y>311</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -4296,7 +4236,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -4340,7 +4279,7 @@ amp. gain</text>
         <x>853</x>
         <name>Boolean Button_14</name>
         <data_type>0</data_type>
-        <y>297</y>
+        <y>311</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -4356,7 +4295,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1114</wuid>
@@ -4388,7 +4326,7 @@ amp. gain</text>
         <width>201</width>
         <x>438</x>
         <name>Combo_21</name>
-        <y>301</y>
+        <y>315</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -4402,7 +4340,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1115</wuid>
@@ -4434,7 +4371,7 @@ amp. gain</text>
         <width>99</width>
         <x>646</x>
         <name>Combo_22</name>
-        <y>301</y>
+        <y>315</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -4448,7 +4385,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1116</wuid>
@@ -4480,7 +4416,7 @@ amp. gain</text>
         <width>55</width>
         <x>751</x>
         <name>Combo_23</name>
-        <y>301</y>
+        <y>315</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -4494,7 +4430,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1117</wuid>
@@ -4526,7 +4461,7 @@ amp. gain</text>
         <width>65</width>
         <x>368</x>
         <name>Combo_24</name>
-        <y>301</y>
+        <y>315</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -4542,7 +4477,6 @@ amp. gain</text>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1118</wuid>
@@ -4580,7 +4514,7 @@ amp. gain</text>
         <width>939</width>
         <x>4</x>
         <name>Rectangle_22</name>
-        <y>241</y>
+        <y>255</y>
         <fill_level>0.0</fill_level>
         <foreground_color>
           <color red="255" green="0" blue="0" />
@@ -4624,7 +4558,7 @@ amp. gain</text>
         <width>49</width>
         <x>10</x>
         <name>Label_41</name>
-        <y>257</y>
+        <y>271</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -4639,7 +4573,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -4676,7 +4609,7 @@ amp. gain</text>
         <width>61</width>
         <x>58</x>
         <name>Spinner_82</name>
-        <y>257</y>
+        <y>271</y>
         <maximum>4.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -4693,7 +4626,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -4730,7 +4662,7 @@ amp. gain</text>
         <width>61</width>
         <x>136</x>
         <name>Spinner_83</name>
-        <y>256</y>
+        <y>270</y>
         <maximum>2000.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -4747,7 +4679,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -4784,7 +4715,7 @@ amp. gain</text>
         <width>61</width>
         <x>217</x>
         <name>Spinner_84</name>
-        <y>257</y>
+        <y>271</y>
         <maximum>600.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -4801,7 +4732,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -4838,7 +4768,7 @@ amp. gain</text>
         <width>61</width>
         <x>296</x>
         <name>Spinner_85</name>
-        <y>256</y>
+        <y>270</y>
         <maximum>4095.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -4855,7 +4785,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -4899,7 +4828,7 @@ amp. gain</text>
         <x>900</x>
         <name>Boolean Button_15</name>
         <data_type>0</data_type>
-        <y>246</y>
+        <y>260</y>
         <foreground_color>
           <color red="237" green="212" blue="0" />
         </foreground_color>
@@ -4924,7 +4853,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -4968,7 +4896,7 @@ amp. gain</text>
         <x>811</x>
         <name>Boolean Button_16</name>
         <data_type>0</data_type>
-        <y>246</y>
+        <y>260</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -4985,7 +4913,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -5029,7 +4956,7 @@ amp. gain</text>
         <x>853</x>
         <name>Boolean Button_17</name>
         <data_type>0</data_type>
-        <y>246</y>
+        <y>260</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -5045,7 +4972,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1121</wuid>
@@ -5077,7 +5003,7 @@ amp. gain</text>
         <width>201</width>
         <x>438</x>
         <name>Combo_25</name>
-        <y>250</y>
+        <y>264</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -5091,7 +5017,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1122</wuid>
@@ -5123,7 +5048,7 @@ amp. gain</text>
         <width>99</width>
         <x>646</x>
         <name>Combo_26</name>
-        <y>250</y>
+        <y>264</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -5137,7 +5062,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1123</wuid>
@@ -5169,7 +5093,7 @@ amp. gain</text>
         <width>55</width>
         <x>751</x>
         <name>Combo_27</name>
-        <y>250</y>
+        <y>264</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -5183,7 +5107,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1124</wuid>
@@ -5215,7 +5138,7 @@ amp. gain</text>
         <width>65</width>
         <x>368</x>
         <name>Combo_28</name>
-        <y>250</y>
+        <y>264</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -5231,7 +5154,6 @@ amp. gain</text>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1125</wuid>
@@ -5269,7 +5191,7 @@ amp. gain</text>
         <width>939</width>
         <x>4</x>
         <name>Rectangle_23</name>
-        <y>394</y>
+        <y>408</y>
         <fill_level>0.0</fill_level>
         <foreground_color>
           <color red="255" green="0" blue="0" />
@@ -5313,7 +5235,7 @@ amp. gain</text>
         <width>49</width>
         <x>10</x>
         <name>Label_42</name>
-        <y>410</y>
+        <y>424</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -5328,7 +5250,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -5365,7 +5286,7 @@ amp. gain</text>
         <width>61</width>
         <x>58</x>
         <name>Spinner_86</name>
-        <y>410</y>
+        <y>424</y>
         <maximum>4.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -5382,7 +5303,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -5419,7 +5339,7 @@ amp. gain</text>
         <width>61</width>
         <x>136</x>
         <name>Spinner_87</name>
-        <y>409</y>
+        <y>423</y>
         <maximum>2000.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -5436,7 +5356,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -5473,7 +5392,7 @@ amp. gain</text>
         <width>61</width>
         <x>217</x>
         <name>Spinner_88</name>
-        <y>410</y>
+        <y>424</y>
         <maximum>600.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -5490,7 +5409,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -5527,7 +5445,7 @@ amp. gain</text>
         <width>61</width>
         <x>296</x>
         <name>Spinner_89</name>
-        <y>409</y>
+        <y>423</y>
         <maximum>4095.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -5544,7 +5462,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -5588,7 +5505,7 @@ amp. gain</text>
         <x>900</x>
         <name>Boolean Button_18</name>
         <data_type>0</data_type>
-        <y>399</y>
+        <y>413</y>
         <foreground_color>
           <color red="237" green="212" blue="0" />
         </foreground_color>
@@ -5613,7 +5530,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -5657,7 +5573,7 @@ amp. gain</text>
         <x>811</x>
         <name>Boolean Button_19</name>
         <data_type>0</data_type>
-        <y>399</y>
+        <y>413</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -5674,7 +5590,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -5718,7 +5633,7 @@ amp. gain</text>
         <x>853</x>
         <name>Boolean Button_20</name>
         <data_type>0</data_type>
-        <y>399</y>
+        <y>413</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -5734,7 +5649,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:112e</wuid>
@@ -5766,7 +5680,7 @@ amp. gain</text>
         <width>201</width>
         <x>438</x>
         <name>Combo_29</name>
-        <y>403</y>
+        <y>417</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -5780,7 +5694,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:112f</wuid>
@@ -5812,7 +5725,7 @@ amp. gain</text>
         <width>99</width>
         <x>646</x>
         <name>Combo_30</name>
-        <y>403</y>
+        <y>417</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -5826,7 +5739,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1130</wuid>
@@ -5858,7 +5770,7 @@ amp. gain</text>
         <width>55</width>
         <x>751</x>
         <name>Combo_31</name>
-        <y>403</y>
+        <y>417</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -5872,7 +5784,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1131</wuid>
@@ -5904,7 +5815,7 @@ amp. gain</text>
         <width>65</width>
         <x>368</x>
         <name>Combo_32</name>
-        <y>403</y>
+        <y>417</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -5920,7 +5831,6 @@ amp. gain</text>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:1132</wuid>
@@ -5958,7 +5868,7 @@ amp. gain</text>
         <width>939</width>
         <x>4</x>
         <name>Rectangle_24</name>
-        <y>343</y>
+        <y>357</y>
         <fill_level>0.0</fill_level>
         <foreground_color>
           <color red="255" green="0" blue="0" />
@@ -6002,7 +5912,7 @@ amp. gain</text>
         <width>49</width>
         <x>10</x>
         <name>Label_43</name>
-        <y>359</y>
+        <y>373</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -6017,7 +5927,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -6054,7 +5963,7 @@ amp. gain</text>
         <width>61</width>
         <x>58</x>
         <name>Spinner_90</name>
-        <y>359</y>
+        <y>373</y>
         <maximum>4.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -6071,7 +5980,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -6108,7 +6016,7 @@ amp. gain</text>
         <width>61</width>
         <x>136</x>
         <name>Spinner_91</name>
-        <y>358</y>
+        <y>372</y>
         <maximum>2000.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -6125,7 +6033,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -6162,7 +6069,7 @@ amp. gain</text>
         <width>61</width>
         <x>217</x>
         <name>Spinner_92</name>
-        <y>359</y>
+        <y>373</y>
         <maximum>600.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -6179,7 +6086,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -6216,7 +6122,7 @@ amp. gain</text>
         <width>61</width>
         <x>296</x>
         <name>Spinner_93</name>
-        <y>358</y>
+        <y>372</y>
         <maximum>4095.0</maximum>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -6233,7 +6139,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -6277,7 +6182,7 @@ amp. gain</text>
         <x>900</x>
         <name>Boolean Button_21</name>
         <data_type>0</data_type>
-        <y>348</y>
+        <y>362</y>
         <foreground_color>
           <color red="237" green="212" blue="0" />
         </foreground_color>
@@ -6302,7 +6207,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -6346,7 +6250,7 @@ amp. gain</text>
         <x>811</x>
         <name>Boolean Button_22</name>
         <data_type>0</data_type>
-        <y>348</y>
+        <y>362</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -6363,7 +6267,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -6407,7 +6310,7 @@ amp. gain</text>
         <x>853</x>
         <name>Boolean Button_23</name>
         <data_type>0</data_type>
-        <y>348</y>
+        <y>362</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -6423,7 +6326,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:113b</wuid>
@@ -6455,7 +6357,7 @@ amp. gain</text>
         <width>201</width>
         <x>438</x>
         <name>Combo_33</name>
-        <y>352</y>
+        <y>366</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -6469,7 +6371,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:113c</wuid>
@@ -6501,7 +6402,7 @@ amp. gain</text>
         <width>99</width>
         <x>646</x>
         <name>Combo_34</name>
-        <y>352</y>
+        <y>366</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -6515,7 +6416,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:113d</wuid>
@@ -6547,7 +6447,7 @@ amp. gain</text>
         <width>55</width>
         <x>751</x>
         <name>Combo_35</name>
-        <y>352</y>
+        <y>366</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -6561,7 +6461,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:113e</wuid>
@@ -6593,7 +6492,7 @@ amp. gain</text>
         <width>65</width>
         <x>368</x>
         <name>Combo_36</name>
-        <y>352</y>
+        <y>366</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -6608,7 +6507,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -6652,7 +6550,7 @@ amp. gain</text>
         <x>900</x>
         <name>Boolean Button_21</name>
         <data_type>0</data_type>
-        <y>95</y>
+        <y>109</y>
         <foreground_color>
           <color red="237" green="212" blue="0" />
         </foreground_color>
@@ -6671,6 +6569,265 @@ amp. gain</text>
         </font>
         <off_label>OUT</off_label>
       </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.RoundedRectangle" version="1.0.0">
+        <border_style>0</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <line_width>0</line_width>
+        <horizontal_fill>true</horizontal_fill>
+        <alarm_pulsing>false</alarm_pulsing>
+        <tooltip></tooltip>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>-37278ea3:16166d3845f:-4d62</wuid>
+        <transparent>false</transparent>
+        <pv_value />
+        <alpha>255</alpha>
+        <corner_height>0</corner_height>
+        <bg_gradient_color>
+          <color red="255" green="255" blue="255" />
+        </bg_gradient_color>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <height>17</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name></pv_name>
+        <gradient>false</gradient>
+        <border_color>
+          <color red="237" green="212" blue="0" />
+        </border_color>
+        <anti_alias>true</anti_alias>
+        <corner_width>16</corner_width>
+        <line_style>0</line_style>
+        <widget_type>Rounded Rectangle</widget_type>
+        <fg_gradient_color>
+          <color red="255" green="255" blue="255" />
+        </fg_gradient_color>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <background_color>
+          <color red="237" green="212" blue="0" />
+        </background_color>
+        <width>939</width>
+        <x>4</x>
+        <name>Rounded Rectangle</name>
+        <y>34</y>
+        <fill_level>0.0</fill_level>
+        <foreground_color>
+          <color red="255" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+        </font>
+        <line_color>
+          <color red="128" green="0" blue="255" />
+        </line_color>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip></tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>-37278ea3:16166d3845f:-4d58</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>range</text>
+        <scripts />
+        <height>19</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>false</wrap_words>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <width>61</width>
+        <x>4</x>
+        <name>Label_1</name>
+        <y>33</y>
+        <foreground_color>
+          <color red="26" green="26" blue="26" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip></tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>-37278ea3:16166d3845f:-4d4c</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>1.0x ... 4.0x</text>
+        <scripts />
+        <height>19</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>false</wrap_words>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <width>61</width>
+        <x>58</x>
+        <name>Label_1</name>
+        <y>33</y>
+        <foreground_color>
+          <color red="26" green="26" blue="26" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip></tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>-37278ea3:16166d3845f:-4d42</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>50 ... 2000</text>
+        <scripts />
+        <height>19</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>false</wrap_words>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <width>61</width>
+        <x>136</x>
+        <name>Label_1</name>
+        <y>33</y>
+        <foreground_color>
+          <color red="26" green="26" blue="26" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip></tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>-37278ea3:16166d3845f:-4d38</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>200 ... 600</text>
+        <scripts />
+        <height>19</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>false</wrap_words>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <width>61</width>
+        <x>217</x>
+        <name>Label_1</name>
+        <y>33</y>
+        <foreground_color>
+          <color red="26" green="26" blue="26" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip></tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>-37278ea3:16166d3845f:-4d31</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>0 ... 4095</text>
+        <scripts />
+        <height>19</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>false</wrap_words>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <width>61</width>
+        <x>296</x>
+        <name>Label_1</name>
+        <y>33</y>
+        <foreground_color>
+          <color red="26" green="26" blue="26" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+        </font>
+      </widget>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
       <border_style>0</border_style>
@@ -6681,7 +6838,7 @@ amp. gain</text>
       <transparent>true</transparent>
       <lock_children>false</lock_children>
       <scripts />
-      <height>449</height>
+      <height>464</height>
       <border_width>1</border_width>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -6719,7 +6876,6 @@ amp. gain</text>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:46f3</wuid>
@@ -6779,7 +6935,6 @@ amp. gain</text>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:46f4</wuid>
@@ -6916,7 +7071,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -7010,7 +7164,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -7104,7 +7257,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -7198,7 +7350,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -7454,7 +7605,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -7563,7 +7713,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -7624,7 +7773,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -7684,7 +7832,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4707</wuid>
@@ -7730,7 +7877,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4708</wuid>
@@ -7776,7 +7922,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4709</wuid>
@@ -7822,7 +7967,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:470a</wuid>
@@ -7870,7 +8014,6 @@ amp. gain</text>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:470b</wuid>
@@ -7967,7 +8110,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -8021,7 +8163,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -8075,7 +8216,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -8129,7 +8269,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -8183,7 +8322,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -8252,7 +8390,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -8313,7 +8450,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -8373,7 +8509,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4714</wuid>
@@ -8419,7 +8554,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4715</wuid>
@@ -8465,7 +8599,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4716</wuid>
@@ -8511,7 +8644,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4717</wuid>
@@ -8559,7 +8691,6 @@ amp. gain</text>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4718</wuid>
@@ -8656,7 +8787,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -8710,7 +8840,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -8764,7 +8893,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -8818,7 +8946,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -8872,7 +8999,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -8941,7 +9067,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -9002,7 +9127,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -9062,7 +9186,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4721</wuid>
@@ -9108,7 +9231,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4722</wuid>
@@ -9154,7 +9276,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4723</wuid>
@@ -9200,7 +9321,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4724</wuid>
@@ -9248,7 +9368,6 @@ amp. gain</text>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4725</wuid>
@@ -9345,7 +9464,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -9399,7 +9517,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -9453,7 +9570,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -9507,7 +9623,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -9561,7 +9676,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -9630,7 +9744,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -9691,7 +9804,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -9751,7 +9863,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:472e</wuid>
@@ -9797,7 +9908,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:472f</wuid>
@@ -9843,7 +9953,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4730</wuid>
@@ -9889,7 +9998,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4731</wuid>
@@ -9937,7 +10045,6 @@ amp. gain</text>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4732</wuid>
@@ -10034,7 +10141,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -10088,7 +10194,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -10142,7 +10247,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -10196,7 +10300,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -10250,7 +10353,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -10319,7 +10421,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -10380,7 +10481,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -10440,7 +10540,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:473b</wuid>
@@ -10486,7 +10585,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:473c</wuid>
@@ -10532,7 +10630,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:473d</wuid>
@@ -10578,7 +10675,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:473e</wuid>
@@ -10626,7 +10722,6 @@ amp. gain</text>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:473f</wuid>
@@ -10723,7 +10818,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -10777,7 +10871,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -10831,7 +10924,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -10885,7 +10977,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -10939,7 +11030,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -11008,7 +11098,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -11069,7 +11158,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -11129,7 +11217,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4748</wuid>
@@ -11175,7 +11262,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4749</wuid>
@@ -11221,7 +11307,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:474a</wuid>
@@ -11267,7 +11352,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:474b</wuid>
@@ -11315,7 +11399,6 @@ amp. gain</text>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:474c</wuid>
@@ -11412,7 +11495,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -11466,7 +11548,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -11520,7 +11601,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -11574,7 +11654,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -11628,7 +11707,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -11697,7 +11775,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -11758,7 +11835,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -11818,7 +11894,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4755</wuid>
@@ -11864,7 +11939,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4756</wuid>
@@ -11910,7 +11984,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4757</wuid>
@@ -11956,7 +12029,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4758</wuid>
@@ -12004,7 +12076,6 @@ amp. gain</text>
         <horizontal_fill>true</horizontal_fill>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4759</wuid>
@@ -12101,7 +12172,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>2</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -12155,7 +12225,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -12209,7 +12278,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -12263,7 +12331,6 @@ amp. gain</text>
         <alarm_pulsing>false</alarm_pulsing>
         <precision>0</precision>
         <tooltip></tooltip>
-
         <horizontal_alignment>1</horizontal_alignment>
         <rules />
         <enabled>true</enabled>
@@ -12317,7 +12384,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>false</effect_3d>
@@ -12386,7 +12452,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -12447,7 +12512,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <push_action_index>0</push_action_index>
         <rules />
         <effect_3d>true</effect_3d>
@@ -12507,7 +12571,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4762</wuid>
@@ -12553,7 +12616,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4763</wuid>
@@ -12599,7 +12661,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4764</wuid>
@@ -12645,7 +12706,6 @@ amp. gain</text>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alarm_pulsing>false</alarm_pulsing>
         <tooltip></tooltip>
-
         <rules />
         <enabled>true</enabled>
         <wuid>88a93ad:160fe4d3dfe:4765</wuid>

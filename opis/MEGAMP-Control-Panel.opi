@@ -37,7 +37,7 @@
     <active_tab>0</active_tab>
     <tooltip></tooltip>
     <height>742</height>
-    <border_width>1</border_width>
+    <border_width>0</border_width>
     <border_color>
       <color red="0" green="128" blue="255" />
     </border_color>
@@ -165,7 +165,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           </path>
         </scripts>
         <height>565</height>
-        <border_width>1</border_width>
+        <border_width>0</border_width>
         <scale_options>
           <width_scalable>false</width_scalable>
           <height_scalable>false</height_scalable>
@@ -208,7 +208,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <text>Copy status</text>
         <scripts />
         <height>20</height>
-        <border_width>1</border_width>
+        <border_width>0</border_width>
         <scale_options>
           <width_scalable>true</width_scalable>
           <height_scalable>true</height_scalable>
@@ -227,7 +227,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <width>244</width>
         <x>18</x>
         <name>Label_1</name>
-        <y>582</y>
+        <y>588</y>
         <foreground_color>
           <color red="237" green="212" blue="0" />
         </foreground_color>
@@ -267,7 +267,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <width>128</width>
         <x>75</x>
         <name>Label_40</name>
-        <y>650</y>
+        <y>656</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -318,7 +318,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <width>110</width>
         <x>84</x>
         <name>Text Update_1</name>
-        <y>670</y>
+        <y>676</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -358,7 +358,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <width>116</width>
         <x>82</x>
         <name>Label_46</name>
-        <y>606</y>
+        <y>612</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -379,7 +379,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <text>Copy settings</text>
         <scripts />
         <height>20</height>
-        <border_width>1</border_width>
+        <border_width>0</border_width>
         <scale_options>
           <width_scalable>true</width_scalable>
           <height_scalable>true</height_scalable>
@@ -398,7 +398,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <width>691</width>
         <x>282</x>
         <name>Label_38</name>
-        <y>582</y>
+        <y>588</y>
         <foreground_color>
           <color red="237" green="212" blue="0" />
         </foreground_color>
@@ -438,7 +438,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <width>80</width>
         <x>339</x>
         <name>Label_2</name>
-        <y>615</y>
+        <y>621</y>
         <foreground_color>
           <color red="204" green="0" blue="0" />
         </foreground_color>
@@ -478,7 +478,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <width>109</width>
         <x>279</x>
         <name>Label_3</name>
-        <y>634</y>
+        <y>640</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -518,7 +518,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <width>109</width>
         <x>375</x>
         <name>Label_4</name>
-        <y>634</y>
+        <y>640</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -559,7 +559,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <width>85</width>
         <x>291</x>
         <name>srcmod</name>
-        <y>653</y>
+        <y>659</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -600,7 +600,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <width>85</width>
         <x>387</x>
         <name>srcch</name>
-        <y>653</y>
+        <y>659</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -658,7 +658,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <width>80</width>
         <x>555</x>
         <name>Label_5</name>
-        <y>615</y>
+        <y>621</y>
         <foreground_color>
           <color red="204" green="0" blue="0" />
         </foreground_color>
@@ -698,7 +698,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <width>109</width>
         <x>492</x>
         <name>Label_6</name>
-        <y>634</y>
+        <y>640</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -738,7 +738,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <width>109</width>
         <x>603</x>
         <name>Label_7</name>
-        <y>634</y>
+        <y>640</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -779,7 +779,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <width>85</width>
         <x>504</x>
         <name>dstmod</name>
-        <y>653</y>
+        <y>659</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -838,7 +838,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <x>617</x>
         <name>setall_1</name>
         <data_type>1</data_type>
-        <y>654</y>
+        <y>660</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -899,7 +899,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <width>79</width>
         <x>894</x>
         <name>Action Button</name>
-        <y>625</y>
+        <y>631</y>
         <style>0</style>
         <foreground_color>
           <color red="0" green="0" blue="0" />
@@ -947,7 +947,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <width>169</width>
         <x>718</x>
         <name>Grouping Container</name>
-        <y>606</y>
+        <y>612</y>
         <foreground_color>
           <color red="192" green="192" blue="192" />
         </foreground_color>
@@ -1984,7 +1984,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <width>110</width>
         <x>85</x>
         <name>Text Update_19</name>
-        <y>625</y>
+        <y>631</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
@@ -2043,7 +2043,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <x>617</x>
         <name>setall_1</name>
         <data_type>1</data_type>
-        <y>674</y>
+        <y>680</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
