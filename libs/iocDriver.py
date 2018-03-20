@@ -1,13 +1,15 @@
 import io
+import os
 import sys
+import time
 import math
 import yaml
 import threading
+import datetime
 
 from libs import PVMegamp
 from libs import megamp
-from os import listdir
-from os.path import isfile, join
+from stat import S_ISREG, ST_CTIME, ST_MODE
 from pcaspy import SimpleServer, Driver, Alarm, Severity
 
 import ctypes
@@ -111,6 +113,8 @@ class myDriver(Driver):
 
       self.setParamStatus(pv, Alarm.NO_ALARM, Severity.NO_ALARM)
       self.setParam(pv, pvalue)
+      self.setParam("CHOUT", "M" + str(self.pvdb[pv]['MAmod']) + ":C" + str(self.pvdb[pv]['MAch']))
+      self.updatePVs()
     finally:
       self.mutex.release()
 
@@ -124,6 +128,9 @@ class myDriver(Driver):
       flags = Flags()
       flags.asByte = int(lvalue)
       pvprefix = 'M' + str(self.pvdb[pv]['MAmod']) + ':C' + str(self.pvdb[pv]['MAch']) + ':'
+
+      self.setParam("CHOUT", "M" + str(self.pvdb[pv]['MAmod']) + ":C" + str(self.pvdb[pv]['MAch']))
+      self.updatePVs()
 
       pvname = pvprefix + "InputPolarity"
       self.setParamStatus(pvname, Alarm.NO_ALARM, Severity.NO_ALARM)
@@ -158,15 +165,21 @@ class myDriver(Driver):
       self.mutex.release()
 
   def updateFilelist(self):
-    self.filelist = [f for f in listdir("setup") if isfile(join("setup", f)) and (not f.startswith('.'))]
-    self.filelist.sort()
+    self.filelist = (f for f in os.listdir("setup")) # (os.path.join("setup", fn) for fn in os.listdir("setup"))
+    self.filelist = ((os.stat("setup/" + path), path) for path in self.filelist)
+    self.filelist = ((stat[ST_CTIME], path) for stat, path in self.filelist if S_ISREG(stat[ST_MODE]))
+    self.filelist = sorted(self.filelist, reverse=True)
 
   def updateFilePVs(self):
     for i in range(0,5):
       try:
-        self.setParam("FILE:" + str(i), self.filelist[self.fileindex + i - 1])
+        (d, filename) = self.filelist[self.fileindex + i - 1]
       except IndexError:
         self.setParam("FILE:" + str(i), "")
+      else:
+        self.setParam("FILE:" + str(i), filename)
+        d = datetime.datetime.fromtimestamp(int(d)).strftime("%d-%m-%Y %H:%M")
+        self.setParam("DATE:" + str(i), d)
     self.updatePVs()
         
   def start(self):
@@ -196,12 +209,16 @@ class myDriver(Driver):
       if (self.pvdb[reason]['MAaddr'] == 0) and (self.pvdb[reason]['MAch'] != 16):
         self.initPVflags(reason)
         self.mutex.acquire()
-        curvalue = self.MA.read(module=self.pvdb[reason]['MAmod'], channel=self.pvdb[reason]['MAch'], address=0)
-        self.mutex.release()
-        flags = Flags()
-        flags.asByte = int(curvalue)
-        setattr(flags,self.pvdb[reason]['name'],pvalue)
-        lvalue = flags.asByte
+        try:
+          curvalue = self.MA.read(module=self.pvdb[reason]['MAmod'], channel=self.pvdb[reason]['MAch'], address=0)
+        except Exception as e:
+          print(e)
+        else:
+          self.mutex.release()
+          flags = Flags()
+          flags.asByte = int(curvalue)
+          setattr(flags,self.pvdb[reason]['name'],pvalue)
+          lvalue = flags.asByte
       elif(hasattr(PVMegamp, self.pvdb[reason]['name'] + "LV")):  # a conversion function exists...
         func = getattr(PVMegamp, self.pvdb[reason]['name'] + "LV")
         lvalue = math.ceil(func(pvalue))
@@ -216,6 +233,8 @@ class myDriver(Driver):
         return(False)
       else:
         self.setParam(reason, pvalue)
+        self.setParam("CHOUT", "M" + str(self.pvdb[reason]['MAmod']) + ":C" + str(self.pvdb[reason]['MAch']))
+        self.updatePVs()
         return(True)
       finally:
         self.mutex.release()
@@ -228,6 +247,8 @@ class myDriver(Driver):
         print(e)
         return(False)
       else:
+        self.setParam("CHOUT", "M" + str(self.pvdb[reason]['MAmod']) + ":C" + str(self.pvdb[reason]['MAch']))
+        self.updatePVs()
         return(True)
       finally:
         self.mutex.release()

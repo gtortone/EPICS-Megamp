@@ -2,6 +2,7 @@
 
 from optparse import OptionParser
 
+import os
 import sys
 sys.path.append('../libs')
 import megamp

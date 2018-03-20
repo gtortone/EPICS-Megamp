@@ -54,7 +54,7 @@
     </tab_1_background_color>
     <tab_1_icon_path></tab_1_icon_path>
     <tab_1_font>
-      <opifont.name fontName="Ubuntu" height="10" style="1">Header 3</opifont.name>
+      <opifont.name fontName="Sans" height="10" style="1">Header 3</opifont.name>
     </tab_1_font>
     <background_color>
       <color red="191" green="191" blue="191" />
@@ -75,7 +75,7 @@
     <name>Tabbed Container</name>
     <minimum_tab_height>10</minimum_tab_height>
     <tab_0_font>
-      <opifont.name fontName="Ubuntu" height="10" style="1">Header 3</opifont.name>
+      <opifont.name fontName="Sans" height="10" style="1">Header 3</opifont.name>
     </tab_0_font>
     <tab_0_title>Live Settings</tab_0_title>
     <tab_1_foreground_color>
@@ -103,7 +103,7 @@
       <transparent>true</transparent>
       <lock_children>false</lock_children>
       <scripts />
-      <height>714</height>
+      <height>713</height>
       <border_width>1</border_width>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -113,7 +113,7 @@
       <macros>
         <include_parent_macros>true</include_parent_macros>
       </macros>
-      <visible>true</visible>
+      <visible>false</visible>
       <border_color>
         <color red="0" green="128" blue="255" />
       </border_color>
@@ -132,7 +132,7 @@
       <fc>false</fc>
       <show_scrollbar>true</show_scrollbar>
       <font>
-        <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+        <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
       </font>
       <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
         <opi_file>MEGAMP-channels.opi</opi_file>
@@ -193,7 +193,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -233,7 +233,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="10" style="1">Header 3</opifont.name>
+          <opifont.name fontName="Sans" height="10" style="1">Header 3</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -273,7 +273,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -324,7 +324,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -364,7 +364,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -404,7 +404,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="10" style="1">Header 3</opifont.name>
+          <opifont.name fontName="Sans" height="10" style="1">Header 3</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -444,7 +444,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="12" style="1">Header 2</opifont.name>
+          <opifont.name fontName="Sans" height="12" style="1">Header 2</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -484,7 +484,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -524,7 +524,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.combo" version="1.0.0">
@@ -538,7 +538,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <pv_value />
         <scripts />
         <border_alarm_sensitive>false</border_alarm_sensitive>
-        <height>23</height>
+        <height>25</height>
         <border_width>1</border_width>
         <scale_options>
           <width_scalable>true</width_scalable>
@@ -565,7 +565,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.combo" version="1.0.0">
@@ -579,7 +579,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <pv_value />
         <scripts />
         <border_alarm_sensitive>false</border_alarm_sensitive>
-        <height>23</height>
+        <height>25</height>
         <border_width>1</border_width>
         <scale_options>
           <width_scalable>true</width_scalable>
@@ -624,7 +624,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <s>15</s>
         </items>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -664,7 +664,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="12" style="1">Header 2</opifont.name>
+          <opifont.name fontName="Sans" height="12" style="1">Header 2</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -704,7 +704,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -744,7 +744,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.combo" version="1.0.0">
@@ -758,7 +758,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <pv_value />
         <scripts />
         <border_alarm_sensitive>false</border_alarm_sensitive>
-        <height>23</height>
+        <height>25</height>
         <border_width>1</border_width>
         <scale_options>
           <width_scalable>true</width_scalable>
@@ -785,7 +785,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
@@ -853,7 +853,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </actions>
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ALL</off_label>
       </widget>
@@ -914,7 +914,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           </action>
         </actions>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -955,7 +955,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <fc>false</fc>
         <show_scrollbar>true</show_scrollbar>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
           <toggle_button>true</toggle_button>
@@ -1013,7 +1013,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <actions hook="false" hook_all="false" />
           <show_boolean_label>true</show_boolean_label>
           <font>
-            <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+            <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
           </font>
           <off_label>CH0</off_label>
         </widget>
@@ -1073,7 +1073,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <actions hook="false" hook_all="false" />
           <show_boolean_label>true</show_boolean_label>
           <font>
-            <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+            <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
           </font>
           <off_label>CH1</off_label>
         </widget>
@@ -1133,7 +1133,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <actions hook="false" hook_all="false" />
           <show_boolean_label>true</show_boolean_label>
           <font>
-            <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+            <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
           </font>
           <off_label>CH2</off_label>
         </widget>
@@ -1193,7 +1193,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <actions hook="false" hook_all="false" />
           <show_boolean_label>true</show_boolean_label>
           <font>
-            <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+            <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
           </font>
           <off_label>CH3</off_label>
         </widget>
@@ -1253,7 +1253,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <actions hook="false" hook_all="false" />
           <show_boolean_label>true</show_boolean_label>
           <font>
-            <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+            <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
           </font>
           <off_label>CH7</off_label>
         </widget>
@@ -1313,7 +1313,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <actions hook="false" hook_all="false" />
           <show_boolean_label>true</show_boolean_label>
           <font>
-            <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+            <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
           </font>
           <off_label>CH6</off_label>
         </widget>
@@ -1373,7 +1373,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <actions hook="false" hook_all="false" />
           <show_boolean_label>true</show_boolean_label>
           <font>
-            <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+            <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
           </font>
           <off_label>CH5</off_label>
         </widget>
@@ -1433,7 +1433,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <actions hook="false" hook_all="false" />
           <show_boolean_label>true</show_boolean_label>
           <font>
-            <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+            <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
           </font>
           <off_label>CH4</off_label>
         </widget>
@@ -1493,7 +1493,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <actions hook="false" hook_all="false" />
           <show_boolean_label>true</show_boolean_label>
           <font>
-            <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+            <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
           </font>
           <off_label>CH8</off_label>
         </widget>
@@ -1553,7 +1553,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <actions hook="false" hook_all="false" />
           <show_boolean_label>true</show_boolean_label>
           <font>
-            <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+            <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
           </font>
           <off_label>CH9</off_label>
         </widget>
@@ -1613,7 +1613,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <actions hook="false" hook_all="false" />
           <show_boolean_label>true</show_boolean_label>
           <font>
-            <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+            <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
           </font>
           <off_label>CH10</off_label>
         </widget>
@@ -1673,7 +1673,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <actions hook="false" hook_all="false" />
           <show_boolean_label>true</show_boolean_label>
           <font>
-            <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+            <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
           </font>
           <off_label>CH11</off_label>
         </widget>
@@ -1733,7 +1733,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <actions hook="false" hook_all="false" />
           <show_boolean_label>true</show_boolean_label>
           <font>
-            <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+            <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
           </font>
           <off_label>CH15</off_label>
         </widget>
@@ -1793,7 +1793,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <actions hook="false" hook_all="false" />
           <show_boolean_label>true</show_boolean_label>
           <font>
-            <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+            <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
           </font>
           <off_label>CH14</off_label>
         </widget>
@@ -1853,7 +1853,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <actions hook="false" hook_all="false" />
           <show_boolean_label>true</show_boolean_label>
           <font>
-            <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+            <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
           </font>
           <off_label>CH13</off_label>
         </widget>
@@ -1913,7 +1913,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <actions hook="false" hook_all="false" />
           <show_boolean_label>true</show_boolean_label>
           <font>
-            <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+            <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
           </font>
           <off_label>CH12</off_label>
         </widget>
@@ -1990,7 +1990,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
@@ -2058,7 +2058,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </actions>
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>none</off_label>
       </widget>
@@ -2072,7 +2072,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
       <transparent>true</transparent>
       <lock_children>false</lock_children>
       <scripts />
-      <height>714</height>
+      <height>713</height>
       <border_width>1</border_width>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -2082,7 +2082,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
       <macros>
         <include_parent_macros>true</include_parent_macros>
       </macros>
-      <visible>false</visible>
+      <visible>true</visible>
       <border_color>
         <color red="0" green="128" blue="255" />
       </border_color>
@@ -2101,7 +2101,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
       <fc>false</fc>
       <show_scrollbar>true</show_scrollbar>
       <font>
-        <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+        <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
       </font>
       <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
         <border_style>0</border_style>
@@ -2155,7 +2155,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <line_color>
           <color red="26" green="26" blue="26" />
@@ -2201,7 +2201,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <background_color>
           <color red="255" green="255" blue="255" />
         </background_color>
-        <width>241</width>
+        <width>130</width>
         <x>437</x>
         <name>file0</name>
         <y>37</y>
@@ -2210,7 +2210,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -2253,7 +2253,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <background_color>
           <color red="255" green="255" blue="255" />
         </background_color>
-        <width>241</width>
+        <width>130</width>
         <x>437</x>
         <name>file1</name>
         <y>69</y>
@@ -2262,7 +2262,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -2305,7 +2305,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <background_color>
           <color red="255" green="255" blue="255" />
         </background_color>
-        <width>241</width>
+        <width>130</width>
         <x>437</x>
         <name>file2</name>
         <y>100</y>
@@ -2314,7 +2314,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -2357,7 +2357,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <background_color>
           <color red="255" green="255" blue="255" />
         </background_color>
-        <width>241</width>
+        <width>130</width>
         <x>437</x>
         <name>file3</name>
         <y>132</y>
@@ -2366,7 +2366,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -2409,7 +2409,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <background_color>
           <color red="255" green="255" blue="255" />
         </background_color>
-        <width>241</width>
+        <width>130</width>
         <x>437</x>
         <name>file4</name>
         <y>164</y>
@@ -2418,7 +2418,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
@@ -2472,7 +2472,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           </action>
         </actions>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
@@ -2526,7 +2526,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           </action>
         </actions>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
@@ -2586,7 +2586,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           </action>
         </actions>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
@@ -2646,7 +2646,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           </action>
         </actions>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
@@ -2702,7 +2702,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <minimum>-1.7976931348623157E308</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -2742,7 +2742,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
@@ -2802,7 +2802,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           </action>
         </actions>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
@@ -2854,7 +2854,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <color red="255" green="255" blue="255" />
         </foreground_color>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
         <off_label>OFFLINE</off_label>
       </widget>
@@ -2895,7 +2895,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
@@ -2947,7 +2947,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <color red="255" green="255" blue="255" />
         </foreground_color>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
         <off_label>OFFLINE</off_label>
       </widget>
@@ -2988,7 +2988,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
@@ -3040,7 +3040,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <color red="255" green="255" blue="255" />
         </foreground_color>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
         <off_label>OFFLINE</off_label>
       </widget>
@@ -3081,7 +3081,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
@@ -3133,7 +3133,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <color red="255" green="255" blue="255" />
         </foreground_color>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
         <off_label>OFFLINE</off_label>
       </widget>
@@ -3174,7 +3174,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
@@ -3226,7 +3226,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <color red="255" green="255" blue="255" />
         </foreground_color>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
         <off_label>OFFLINE</off_label>
       </widget>
@@ -3267,7 +3267,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
@@ -3319,7 +3319,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <color red="255" green="255" blue="255" />
         </foreground_color>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
         <off_label>OFFLINE</off_label>
       </widget>
@@ -3360,7 +3360,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
@@ -3412,7 +3412,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <color red="255" green="255" blue="255" />
         </foreground_color>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
         <off_label>OFFLINE</off_label>
       </widget>
@@ -3453,7 +3453,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
@@ -3505,7 +3505,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <color red="255" green="255" blue="255" />
         </foreground_color>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
         <off_label>OFFLINE</off_label>
       </widget>
@@ -3546,7 +3546,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
@@ -3598,7 +3598,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <color red="255" green="255" blue="255" />
         </foreground_color>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
         <off_label>OFFLINE</off_label>
       </widget>
@@ -3639,7 +3639,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
@@ -3691,7 +3691,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <color red="255" green="255" blue="255" />
         </foreground_color>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
         <off_label>OFFLINE</off_label>
       </widget>
@@ -3732,7 +3732,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
@@ -3784,7 +3784,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <color red="255" green="255" blue="255" />
         </foreground_color>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
         <off_label>OFFLINE</off_label>
       </widget>
@@ -3825,7 +3825,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
@@ -3877,7 +3877,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <color red="255" green="255" blue="255" />
         </foreground_color>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
         <off_label>OFFLINE</off_label>
       </widget>
@@ -3918,7 +3918,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
@@ -3970,7 +3970,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <color red="255" green="255" blue="255" />
         </foreground_color>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
         <off_label>OFFLINE</off_label>
       </widget>
@@ -4011,7 +4011,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
@@ -4063,7 +4063,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <color red="255" green="255" blue="255" />
         </foreground_color>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
         <off_label>OFFLINE</off_label>
       </widget>
@@ -4104,7 +4104,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
@@ -4156,7 +4156,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <color red="255" green="255" blue="255" />
         </foreground_color>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
         <off_label>OFFLINE</off_label>
       </widget>
@@ -4197,7 +4197,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
@@ -4249,7 +4249,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           <color red="255" green="255" blue="255" />
         </foreground_color>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
         <off_label>OFFLINE</off_label>
       </widget>
@@ -4290,7 +4290,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -4321,8 +4321,8 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         <background_color>
           <color red="255" green="255" blue="255" />
         </background_color>
-        <width>241</width>
-        <x>437</x>
+        <width>95</width>
+        <x>453</x>
         <name>Label_50</name>
         <y>15</y>
         <foreground_color>
@@ -4330,7 +4330,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -4382,7 +4382,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -4422,7 +4422,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -4474,7 +4474,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -4526,7 +4526,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -4578,7 +4578,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -4630,7 +4630,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -4682,7 +4682,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -4734,7 +4734,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -4786,7 +4786,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -4838,7 +4838,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -4890,7 +4890,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -4942,7 +4942,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -4994,7 +4994,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -5046,7 +5046,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -5098,7 +5098,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -5150,7 +5150,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -5202,7 +5202,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
@@ -5262,7 +5262,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           </action>
         </actions>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
@@ -5322,7 +5322,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           </action>
         </actions>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
@@ -5382,7 +5382,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           </action>
         </actions>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
@@ -5442,7 +5442,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           </action>
         </actions>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
@@ -5502,7 +5502,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           </action>
         </actions>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
@@ -5562,7 +5562,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           </action>
         </actions>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
@@ -5622,7 +5622,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           </action>
         </actions>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
@@ -5682,7 +5682,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
           </action>
         </actions>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -5784,7 +5784,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="10" style="1">Header 3</opifont.name>
+          <opifont.name fontName="Sans" height="10" style="1">Header 3</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -5835,7 +5835,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="10" style="1">Header 3</opifont.name>
+          <opifont.name fontName="Sans" height="10" style="1">Header 3</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -5875,7 +5875,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="10" style="1">Header 3</opifont.name>
+          <opifont.name fontName="Sans" height="10" style="1">Header 3</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -5951,7 +5951,307 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+        <border_style>0</border_style>
+        <tooltip></tooltip>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>5d35ad4f:16219d26c0e:-1241</wuid>
+        <transparent>true</transparent>
+        <auto_size>false</auto_size>
+        <text>Date</text>
+        <scripts />
+        <height>20</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <widget_type>Label</widget_type>
+        <wrap_words>false</wrap_words>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <width>95</width>
+        <x>583</x>
+        <name>Label_50</name>
+        <y>15</y>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_style>0</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>
+</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>5d35ad4f:16219d26c0e:-1237</wuid>
+        <transparent>false</transparent>
+        <pv_value />
+        <auto_size>false</auto_size>
+        <text>######</text>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <show_units>true</show_units>
+        <height>20</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>ca://$(P):DATE:0</pv_name>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <precision_from_pv>false</precision_from_pv>
+        <widget_type>Text Update</widget_type>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <wrap_words>false</wrap_words>
+        <format_type>4</format_type>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <width>97</width>
+        <x>575</x>
+        <name>date0</name>
+        <y>37</y>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_style>0</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>
+</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>5d35ad4f:16219d26c0e:-fb2</wuid>
+        <transparent>false</transparent>
+        <pv_value />
+        <auto_size>false</auto_size>
+        <text>######</text>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <show_units>true</show_units>
+        <height>20</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>ca://$(P):DATE:1</pv_name>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <precision_from_pv>false</precision_from_pv>
+        <widget_type>Text Update</widget_type>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <wrap_words>false</wrap_words>
+        <format_type>4</format_type>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <width>97</width>
+        <x>575</x>
+        <name>date1</name>
+        <y>69</y>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_style>0</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>
+</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>5d35ad4f:16219d26c0e:-faa</wuid>
+        <transparent>false</transparent>
+        <pv_value />
+        <auto_size>false</auto_size>
+        <text>######</text>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <show_units>true</show_units>
+        <height>20</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>ca://$(P):DATE:2</pv_name>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <precision_from_pv>false</precision_from_pv>
+        <widget_type>Text Update</widget_type>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <wrap_words>false</wrap_words>
+        <format_type>4</format_type>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <width>97</width>
+        <x>575</x>
+        <name>date2</name>
+        <y>100</y>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_style>0</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>
+</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>5d35ad4f:16219d26c0e:-fa5</wuid>
+        <transparent>false</transparent>
+        <pv_value />
+        <auto_size>false</auto_size>
+        <text>######</text>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <show_units>true</show_units>
+        <height>20</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>ca://$(P):DATE:3</pv_name>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <precision_from_pv>false</precision_from_pv>
+        <widget_type>Text Update</widget_type>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <wrap_words>false</wrap_words>
+        <format_type>4</format_type>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <width>97</width>
+        <x>575</x>
+        <name>date3</name>
+        <y>132</y>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_style>0</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <alarm_pulsing>false</alarm_pulsing>
+        <precision>0</precision>
+        <tooltip>
+</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>5d35ad4f:16219d26c0e:-fa0</wuid>
+        <transparent>false</transparent>
+        <pv_value />
+        <auto_size>false</auto_size>
+        <text>######</text>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <show_units>true</show_units>
+        <height>20</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>ca://$(P):DATE:4</pv_name>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <precision_from_pv>false</precision_from_pv>
+        <widget_type>Text Update</widget_type>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <wrap_words>false</wrap_words>
+        <format_type>4</format_type>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <width>97</width>
+        <x>575</x>
+        <name>date4</name>
+        <y>164</y>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
     </widget>
@@ -5993,7 +6293,7 @@ widget.setPropertyValue("opi_file", "MEGAMP-channels.opi");
     </foreground_color>
     <actions hook="false" hook_all="false" />
     <font>
-      <opifont.name fontName="Ubuntu" height="12" style="1">Header 2</opifont.name>
+      <opifont.name fontName="Sans" height="12" style="1">Header 2</opifont.name>
     </font>
   </widget>
 </display>

@@ -32,6 +32,7 @@ def addStaticPVs(db, MAlist):
   # static PVs
   MAlist.sort()
   mdict['MOD:SEL'] = {'type': 'enum', 'enums': list(map(str, MAlist)), 'value': 0, 'min': 0, 'max': len(MAlist)-1, 'name': 'MOD:SEL' }
+  mdict['CHOUT'] = { 'type': 'string', 'name': 'CHOUT' }
   mdict['COPY:MOD:SRC'] = { 'type': 'enum', 'enums': list(map(str, MAlist)), 'value': 0, 'min': 0, 'max': len(MAlist)-1, 'name': 'COPY:MOD:SRC' }
   mdict['COPY:MOD:DEST'] = { 'type': 'enum', 'enums': list(map(str, MAlist)), 'value': 0, 'min': 0, 'max': len(MAlist)-1, 'name': 'COPY:MOD:DEST' }
   mdict['COPY:CH:SRC'] = { 'type': 'int', 'value': 0, 'min': 0, 'max': 15, 'name': 'COPY:CH:SRC' }
@@ -45,6 +46,12 @@ def addStaticPVs(db, MAlist):
   mdict['FILE:3'] = { 'type': 'string', 'name': 'FILE:3' }
   mdict['FILE:4'] = { 'type': 'string', 'name': 'FILE:4' }
   mdict['FILE:5'] = { 'type': 'string', 'name': 'FILE:5' }
+  mdict['DATE:0'] = { 'type': 'string', 'name': 'DATE:0' }
+  mdict['DATE:1'] = { 'type': 'string', 'name': 'DATE:1' }
+  mdict['DATE:2'] = { 'type': 'string', 'name': 'DATE:2' }
+  mdict['DATE:3'] = { 'type': 'string', 'name': 'DATE:3' }
+  mdict['DATE:4'] = { 'type': 'string', 'name': 'DATE:4' }
+  mdict['DATE:5'] = { 'type': 'string', 'name': 'DATE:5' }
   mdict['FILE:PREVGROUP'] = { 'type': 'int', 'value': 0, 'name': 'FILE:PREVGROUP' }
   mdict['FILE:NEXTGROUP'] = { 'type': 'int', 'value': 0, 'name': 'FILE:NEXTGROUP' }
   mdict['FILE:LOAD'] = { 'type': 'int', 'value': 0, 'min': 0, 'max': 4, 'name': 'FILE:LOAD' }

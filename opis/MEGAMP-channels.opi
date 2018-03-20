@@ -85,7 +85,7 @@
     </foreground_color>
     <actions hook="false" hook_all="false" />
     <font>
-      <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+      <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
     </font>
     <line_color>
       <color red="128" green="0" blue="255" />
@@ -142,7 +142,7 @@
     </foreground_color>
     <actions hook="false" hook_all="false" />
     <font>
-      <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+      <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
     </font>
     <line_color>
       <color red="128" green="0" blue="255" />
@@ -185,7 +185,7 @@
     </foreground_color>
     <actions hook="false" hook_all="false" />
     <font>
-      <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -225,7 +225,7 @@
     </foreground_color>
     <actions hook="false" hook_all="false" />
     <font>
-      <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+      <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
@@ -281,7 +281,7 @@
     </foreground_color>
     <minimum>-1.7976931348623157E308</minimum>
     <font>
-      <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+      <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -321,7 +321,7 @@
     </foreground_color>
     <actions hook="false" hook_all="false" />
     <font>
-      <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+      <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -374,7 +374,7 @@
     <actions hook="false" hook_all="false" />
     <minimum>0.0</minimum>
     <font>
-      <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+      <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -414,7 +414,7 @@
     </foreground_color>
     <actions hook="false" hook_all="false" />
     <font>
-      <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+      <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -467,7 +467,7 @@
     <actions hook="false" hook_all="false" />
     <minimum>0.0</minimum>
     <font>
-      <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+      <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.combo" version="1.0.0">
@@ -481,7 +481,7 @@
     <pv_value />
     <scripts />
     <border_alarm_sensitive>false</border_alarm_sensitive>
-    <height>25</height>
+    <height>27</height>
     <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -502,13 +502,13 @@
     <width>63</width>
     <x>69</x>
     <name>msel</name>
-    <y>47</y>
+    <y>45</y>
     <foreground_color>
       <color name="MAJOR" red="255" green="0" blue="0" />
     </foreground_color>
     <actions hook="false" hook_all="false" />
     <font>
-      <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -548,7 +548,7 @@
     </foreground_color>
     <actions hook="false" hook_all="false" />
     <font>
-      <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+      <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -588,7 +588,7 @@
     </foreground_color>
     <actions hook="false" hook_all="false" />
     <font>
-      <opifont.name fontName="Ubuntu" height="10" style="1">Header 3</opifont.name>
+      <opifont.name fontName="Sans" height="10" style="1">Header 3</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.tab" version="1.0.0">
@@ -612,7 +612,7 @@
     </tab_1_background_color>
     <tab_1_icon_path></tab_1_icon_path>
     <tab_1_font>
-      <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+      <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
     </tab_1_font>
     <background_color>
       <color red="240" green="240" blue="240" />
@@ -633,7 +633,7 @@
     <name>Tabbed Container</name>
     <minimum_tab_height>10</minimum_tab_height>
     <tab_0_font>
-      <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+      <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
     </tab_0_font>
     <tab_0_title>CH0 to CH7</tab_0_title>
     <tab_1_foreground_color>
@@ -671,7 +671,7 @@
       <macros>
         <include_parent_macros>true</include_parent_macros>
       </macros>
-      <visible>true</visible>
+      <visible>false</visible>
       <border_color>
         <color red="0" green="128" blue="255" />
       </border_color>
@@ -690,7 +690,7 @@
       <fc>false</fc>
       <show_scrollbar>true</show_scrollbar>
       <font>
-        <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+        <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
       </font>
       <widget typeId="org.csstudio.opibuilder.widgets.RoundedRectangle" version="1.0.0">
         <border_style>0</border_style>
@@ -745,7 +745,7 @@
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <line_color>
           <color red="128" green="0" blue="255" />
@@ -802,7 +802,7 @@
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <line_color>
           <color red="128" green="0" blue="255" />
@@ -845,7 +845,7 @@
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -885,7 +885,7 @@
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -938,7 +938,7 @@
         <actions hook="false" hook_all="false" />
         <minimum>1.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -978,7 +978,7 @@
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -1031,7 +1031,7 @@
         <actions hook="false" hook_all="false" />
         <minimum>50.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -1071,7 +1071,7 @@
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -1124,7 +1124,7 @@
         <actions hook="false" hook_all="false" />
         <minimum>200.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -1164,7 +1164,7 @@
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -1217,7 +1217,7 @@
         <actions hook="false" hook_all="false" />
         <minimum>0.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -1257,7 +1257,7 @@
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -1297,7 +1297,7 @@
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -1329,7 +1329,7 @@ amp. gain</text>
         <background_color>
           <color red="255" green="255" blue="255" />
         </background_color>
-        <width>48</width>
+        <width>46</width>
         <x>755</x>
         <name>Label_23</name>
         <y>7</y>
@@ -1339,7 +1339,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_scrollbar>false</show_scrollbar>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -1379,7 +1379,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -1419,7 +1419,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -1459,7 +1459,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
@@ -1518,7 +1518,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -1578,7 +1578,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -1624,7 +1624,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -1669,7 +1669,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -1714,7 +1714,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -1813,7 +1813,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <line_color>
           <color red="128" green="0" blue="255" />
@@ -1856,7 +1856,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -1909,7 +1909,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>1.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -1962,7 +1962,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>50.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -2015,7 +2015,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>200.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -2068,7 +2068,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>0.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
@@ -2135,7 +2135,7 @@ amp. gain</text>
         </actions>
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>OUT</off_label>
       </widget>
@@ -2195,7 +2195,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -2255,7 +2255,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -2301,7 +2301,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -2346,7 +2346,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -2391,7 +2391,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -2490,7 +2490,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <line_color>
           <color red="128" green="0" blue="255" />
@@ -2533,7 +2533,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -2586,7 +2586,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>1.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -2639,7 +2639,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>50.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -2692,7 +2692,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>200.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -2745,7 +2745,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>0.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
@@ -2812,7 +2812,7 @@ amp. gain</text>
         </actions>
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>OUT</off_label>
       </widget>
@@ -2872,7 +2872,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -2932,7 +2932,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -2978,7 +2978,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -3023,7 +3023,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -3068,7 +3068,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -3167,7 +3167,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <line_color>
           <color red="128" green="0" blue="255" />
@@ -3210,7 +3210,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -3263,7 +3263,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>1.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -3316,7 +3316,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>50.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -3369,7 +3369,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>200.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -3422,7 +3422,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>0.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
@@ -3489,7 +3489,7 @@ amp. gain</text>
         </actions>
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>OUT</off_label>
       </widget>
@@ -3549,7 +3549,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -3609,7 +3609,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -3655,7 +3655,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -3700,7 +3700,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -3745,7 +3745,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -3844,7 +3844,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <line_color>
           <color red="128" green="0" blue="255" />
@@ -3887,7 +3887,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -3940,7 +3940,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>1.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -3993,7 +3993,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>50.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -4046,7 +4046,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>200.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -4099,7 +4099,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>0.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
@@ -4166,7 +4166,7 @@ amp. gain</text>
         </actions>
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>OUT</off_label>
       </widget>
@@ -4226,7 +4226,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -4286,7 +4286,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -4332,7 +4332,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -4377,7 +4377,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -4422,7 +4422,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -4521,7 +4521,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <line_color>
           <color red="128" green="0" blue="255" />
@@ -4564,7 +4564,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -4617,7 +4617,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>1.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -4670,7 +4670,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>50.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -4723,7 +4723,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>200.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -4776,7 +4776,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>0.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
@@ -4843,7 +4843,7 @@ amp. gain</text>
         </actions>
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>OUT</off_label>
       </widget>
@@ -4903,7 +4903,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -4963,7 +4963,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -5009,7 +5009,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -5054,7 +5054,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -5099,7 +5099,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -5198,7 +5198,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <line_color>
           <color red="128" green="0" blue="255" />
@@ -5241,7 +5241,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -5294,7 +5294,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>1.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -5347,7 +5347,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>50.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -5400,7 +5400,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>200.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -5453,7 +5453,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>0.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
@@ -5520,7 +5520,7 @@ amp. gain</text>
         </actions>
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>OUT</off_label>
       </widget>
@@ -5580,7 +5580,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -5640,7 +5640,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -5686,7 +5686,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -5731,7 +5731,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -5776,7 +5776,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -5875,7 +5875,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <line_color>
           <color red="128" green="0" blue="255" />
@@ -5918,7 +5918,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -5971,7 +5971,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>1.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -6024,7 +6024,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>50.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -6077,7 +6077,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>200.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -6130,7 +6130,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>0.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
@@ -6197,7 +6197,7 @@ amp. gain</text>
         </actions>
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>OUT</off_label>
       </widget>
@@ -6257,7 +6257,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -6317,7 +6317,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -6363,7 +6363,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -6408,7 +6408,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -6453,7 +6453,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -6565,7 +6565,7 @@ amp. gain</text>
         </actions>
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>OUT</off_label>
       </widget>
@@ -6622,7 +6622,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <line_color>
           <color red="128" green="0" blue="255" />
@@ -6665,7 +6665,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -6705,7 +6705,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -6745,7 +6745,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -6785,7 +6785,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -6825,7 +6825,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
     </widget>
@@ -6848,7 +6848,7 @@ amp. gain</text>
       <macros>
         <include_parent_macros>true</include_parent_macros>
       </macros>
-      <visible>false</visible>
+      <visible>true</visible>
       <border_color>
         <color red="0" green="128" blue="255" />
       </border_color>
@@ -6867,7 +6867,7 @@ amp. gain</text>
       <fc>false</fc>
       <show_scrollbar>true</show_scrollbar>
       <font>
-        <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+        <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
       </font>
       <widget typeId="org.csstudio.opibuilder.widgets.RoundedRectangle" version="1.0.0">
         <border_style>0</border_style>
@@ -6922,7 +6922,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <line_color>
           <color red="128" green="0" blue="255" />
@@ -6979,7 +6979,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <line_color>
           <color red="128" green="0" blue="255" />
@@ -7022,7 +7022,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -7062,7 +7062,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -7115,7 +7115,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>1.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -7155,7 +7155,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -7208,7 +7208,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>50.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -7248,7 +7248,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -7301,7 +7301,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>200.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -7341,7 +7341,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -7394,7 +7394,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>0.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -7434,7 +7434,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -7474,7 +7474,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -7506,7 +7506,7 @@ amp. gain</text>
         <background_color>
           <color red="255" green="255" blue="255" />
         </background_color>
-        <width>48</width>
+        <width>46</width>
         <x>755</x>
         <name>Label_23</name>
         <y>7</y>
@@ -7516,7 +7516,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_scrollbar>false</show_scrollbar>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -7556,7 +7556,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -7596,7 +7596,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
@@ -7663,7 +7663,7 @@ amp. gain</text>
         </actions>
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>OUT</off_label>
       </widget>
@@ -7704,7 +7704,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
@@ -7763,7 +7763,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -7823,7 +7823,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -7869,7 +7869,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -7914,7 +7914,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -7959,7 +7959,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -8058,7 +8058,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <line_color>
           <color red="128" green="0" blue="255" />
@@ -8101,7 +8101,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -8154,7 +8154,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>1.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -8207,7 +8207,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>50.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -8260,7 +8260,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>200.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -8313,7 +8313,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>0.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
@@ -8380,7 +8380,7 @@ amp. gain</text>
         </actions>
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>OUT</off_label>
       </widget>
@@ -8440,7 +8440,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -8500,7 +8500,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -8546,7 +8546,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -8591,7 +8591,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -8636,7 +8636,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -8735,7 +8735,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <line_color>
           <color red="128" green="0" blue="255" />
@@ -8778,7 +8778,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -8831,7 +8831,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>1.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -8884,7 +8884,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>50.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -8937,7 +8937,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>200.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -8990,7 +8990,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>0.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
@@ -9057,7 +9057,7 @@ amp. gain</text>
         </actions>
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>OUT</off_label>
       </widget>
@@ -9117,7 +9117,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -9177,7 +9177,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -9223,7 +9223,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -9268,7 +9268,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -9313,7 +9313,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -9412,7 +9412,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <line_color>
           <color red="128" green="0" blue="255" />
@@ -9455,7 +9455,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -9508,7 +9508,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>1.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -9561,7 +9561,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>50.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -9614,7 +9614,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>200.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -9667,7 +9667,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>0.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
@@ -9734,7 +9734,7 @@ amp. gain</text>
         </actions>
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>OUT</off_label>
       </widget>
@@ -9794,7 +9794,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -9854,7 +9854,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -9900,7 +9900,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -9945,7 +9945,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -9990,7 +9990,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -10089,7 +10089,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <line_color>
           <color red="128" green="0" blue="255" />
@@ -10132,7 +10132,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -10185,7 +10185,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>1.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -10238,7 +10238,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>50.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -10291,7 +10291,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>200.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -10344,7 +10344,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>0.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
@@ -10411,7 +10411,7 @@ amp. gain</text>
         </actions>
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>OUT</off_label>
       </widget>
@@ -10471,7 +10471,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -10531,7 +10531,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -10577,7 +10577,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -10622,7 +10622,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -10667,7 +10667,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -10766,7 +10766,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <line_color>
           <color red="128" green="0" blue="255" />
@@ -10809,7 +10809,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -10862,7 +10862,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>1.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -10915,7 +10915,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>50.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -10968,7 +10968,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>200.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -11021,7 +11021,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>0.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
@@ -11088,7 +11088,7 @@ amp. gain</text>
         </actions>
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>OUT</off_label>
       </widget>
@@ -11148,7 +11148,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -11208,7 +11208,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -11254,7 +11254,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -11299,7 +11299,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -11344,7 +11344,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -11443,7 +11443,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <line_color>
           <color red="128" green="0" blue="255" />
@@ -11486,7 +11486,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -11539,7 +11539,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>1.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -11592,7 +11592,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>50.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -11645,7 +11645,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>200.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -11698,7 +11698,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>0.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
@@ -11765,7 +11765,7 @@ amp. gain</text>
         </actions>
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>OUT</off_label>
       </widget>
@@ -11825,7 +11825,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -11885,7 +11885,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -11931,7 +11931,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -11976,7 +11976,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -12021,7 +12021,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -12120,7 +12120,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <line_color>
           <color red="128" green="0" blue="255" />
@@ -12163,7 +12163,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -12216,7 +12216,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>1.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -12269,7 +12269,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>50.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -12322,7 +12322,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>200.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -12375,7 +12375,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <minimum>0.0</minimum>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
@@ -12442,7 +12442,7 @@ amp. gain</text>
         </actions>
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>OUT</off_label>
       </widget>
@@ -12502,7 +12502,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -12562,7 +12562,7 @@ amp. gain</text>
         <actions hook="false" hook_all="false" />
         <show_boolean_label>true</show_boolean_label>
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
         <off_label>ON</off_label>
       </widget>
@@ -12608,7 +12608,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -12653,7 +12653,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -12698,7 +12698,7 @@ amp. gain</text>
         </foreground_color>
         <actions hook="false" hook_all="false" />
         <font>
-          <opifont.name fontName="Ubuntu" height="8" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Default</opifont.name>
         </font>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.choiceButton" version="1.0.0">
@@ -12868,6 +12868,97 @@ if(nextmod >= 0):
     </actions>
     <font>
       <fontdata fontName="Ubuntu" height="10" style="0" />
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>5d35ad4f:16219d26c0e:-610a</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>OUTPUT channel</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>97</width>
+    <x>599</x>
+    <name>Label_34</name>
+    <y>49</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="Sans" height="8" style="1">Default Bold</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <alarm_pulsing>false</alarm_pulsing>
+    <precision>0</precision>
+    <tooltip></tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>5d35ad4f:16219d26c0e:-6104</wuid>
+    <transparent>true</transparent>
+    <pv_value />
+    <auto_size>false</auto_size>
+    <text></text>
+    <rotation_angle>0.0</rotation_angle>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <show_units>true</show_units>
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name>ca://$(P):CHOUT</pv_name>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <precision_from_pv>true</precision_from_pv>
+    <widget_type>Text Update</widget_type>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <wrap_words>false</wrap_words>
+    <format_type>4</format_type>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>100</width>
+    <x>701</x>
+    <name>Text Update</name>
+    <y>49</y>
+    <foreground_color>
+      <color red="237" green="212" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="Sans" height="12" style="1">Header 2</opifont.name>
     </font>
   </widget>
 </display>
