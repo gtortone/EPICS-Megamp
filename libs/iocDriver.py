@@ -370,8 +370,8 @@ class myDriver(Driver):
       self.setParam("COPY:RESULT:STATUS", 3)  # in progress
       self.setParam("COPY:RESULT", "")
       self.updatePVs()
-      msrc = self.getParam("COPY:MOD:SRC")
-      mdest = self.getParam("COPY:MOD:DEST")
+      msrc = int(self.MAlist[self.getParam("COPY:MOD:SRC")])
+      mdest = int(self.MAlist[self.getParam("COPY:MOD:DEST")])
       csrc = self.getParam("COPY:CH:SRC")
       cdest = self.getParam("COPY:CH:DEST")
 
