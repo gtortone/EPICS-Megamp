@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+opis/.metadata
 
 # C extensions
 *.so
